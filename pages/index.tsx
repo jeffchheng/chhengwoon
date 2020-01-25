@@ -1,7 +1,44 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head"
+import Link from "next/link"
 
-import Nav from '../components/nav'
+import Nav from "../components/Nav"
+import PageHeader from "../components/PageHeader"
+
+const row1 = [
+  {
+    href: "/details",
+    label: "Wedding Details",
+    description: "The who, what, when, and where.",
+  },
+  {
+    href: "/rsvp",
+    label: "RSVP",
+    description: "Let us know you're coming.",
+  },
+  {
+    href: "/travel",
+    label: "Travel Info",
+    description: "Coming from out of town?",
+  },
+]
+
+const row2 = [
+  {
+    href: "/story",
+    label: "Our Story",
+    description: "Learn more about us.",
+  },
+  {
+    href: "/party",
+    label: "Wedding Party",
+    description: "Who are the cool kids?",
+  },
+  {
+    href: "/registry",
+    label: "Gift Registry",
+    description: "Gifts are hard. Wondering what to get us?",
+  },
+]
 
 export default function Home() {
   return (
@@ -14,107 +51,46 @@ export default function Home() {
   
       <Nav />
   
-      <div className="hero">
-        <h1 className="title">Wedding Time</h1>
-        <p className="description">
+      <div className="text-center p-8">
+        <PageHeader>Wedding Time</PageHeader>
+        <p className="text-base">
           Jeff Chheng and Nicole Woon&apos;s wedding.
         </p>
-
-        <div className="row">
-          <Link href="/details">
-            <a className="card">
-              <h3>Wedding Details &rarr;</h3>
-              <p>Where, when, and what (to wear).</p>
-            </a>
-          </Link>
-
-          <Link href="/rsvp">
-            <a className="card">
-              <h3>RSVP &rarr;</h3>
-              <p>Let us know you&apos;re coming.</p>
-            </a>
-          </Link>
-
-          <Link href="/travel">
-            <a className="card">
-              <h3>Travel Information &rarr;</h3>
-              <p>Coming from out of town?</p>
-            </a>
-          </Link>
-        </div>
-
-        <div className="row">
-          <Link href="/story">
-            <a className="card">
-              <h3>Our Story &rarr;</h3>
-              <p>Learn more about us.</p>
-            </a>
-          </Link>
-
-          <Link href="/party">
-            <a className="card">
-              <h3>Wedding Party &rarr;</h3>
-              <p>Who are the cool kids?</p>
-            </a>
-          </Link>
-
-          <Link href="/registry">
-            <a className="card">
-              <h3>Gift Registry &rarr;</h3>
-              <p>Gifts are hard. Wondering what to get us?</p>
-            </a>
-          </Link>
-        </div>
-
       </div>
 
-      <style jsx>{`
-        .hero {
-          margin: 0 auto;
-          max-width: 800px;
-          color: #333;
-        }
-        .title {
-          margin: 0;
-          width: 100%;
-          padding: 80px 0 25px;
-          line-height: 1.15;
-          font-size: 48px;
-        }
-        .title,
-        .description {
-          text-align: center;
-        }
-        .row {
-          max-width: 800px;
-          margin: 80px auto 40px;
-          display: flex;
-          flex-direction: row;
-          justify-content: space-around;
-        }
-        .card {
-          padding: 18px 18px 24px;
-          width: 220px;
-          text-align: left;
-          text-decoration: none;
-          color: #434343;
-          border: 1px solid #9b9b9b;
-        }
-        .card:hover {
-          border-color: #067df7;
-        }
-        .card h3 {
-          margin: 0;
-          color: #067df7;
-          font-size: 18px;
-        }
-        .card p {
-          margin: 0;
-          padding: 12px 0 0;
-          font-size: 13px;
-          color: #333;
-        }
-      `}</style>
+      <div className="max-w-3xl mx-auto flex flex-row justify-around">
+        {row1.map(({ href, label, description }) => (
+          <div key={`card-to-${href}`} className="m-2 w-full h-30 inline-block rounded overflow-hidden hover:shadow-lg">
+            <Link href={href}>
+              <a>
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">{label} &rarr;</div>
+                  <p className="text-gray-700 text-base">
+                    {description}
+                  </p>
+                </div>
+              </a>
+            </Link>
+          </div>
+        ))}
+      </div>
+
+      <div className="max-w-3xl mx-auto flex flex-row justify-around">
+        {row2.map(({ href, label, description }) => (
+          <div key={`card-to-${href}`} className="m-2 w-full h-30 inline-block rounded overflow-hidden hover:shadow-lg">
+            <Link href={href}>
+              <a>
+                <div className="px-6 py-4">
+                  <div className="font-bold text-xl mb-2">{label} &rarr;</div>
+                  <p className="text-gray-700 text-base">
+                    {description}
+                  </p>
+                </div>
+              </a>
+            </Link>
+          </div>
+        ))}
+      </div>
     </div>
   )
 } 

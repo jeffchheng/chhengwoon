@@ -1,6 +1,9 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import Nav from '../components/nav'
+import Nav from "../components/Nav"
+import PageHeader from "../components/PageHeader"
+import PageWrapper from "../components/PageWrapper"
+
 export default function WeddingParty() {
   return (
     <div>
@@ -12,9 +15,9 @@ export default function WeddingParty() {
 
       <Nav />
   
-      <div className="hero">
-        <h1 className="title">Wedding Party</h1>
-      </div>
+      <PageWrapper>
+        <PageHeader>Wedding Party</PageHeader>
+      </PageWrapper>
 
       <style jsx>{`
         .hero {

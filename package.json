@@ -3,14 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "lint": "eslint --ext .ts,.tsx pages components",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "autoprefixer": "^9.7.4",
     "next": "9.2.0",
+    "postcss-import": "^12.0.1",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "tailwindcss": "^1.1.4"
   },
   "devDependencies": {
     "@testing-library/react": "^9.4.0",
@@ -19,10 +23,10 @@
     "@typescript-eslint/eslint-plugin": "^2.16.0",
     "@typescript-eslint/parser": "^2.16.0",
     "babel-jest": "^24.9.0",
-		"eslint": "^6.8.0",
-		"eslint-plugin-react": "^7.18.0",
-		"eslint-plugin-react-hooks": "^2.3.0",
-		"jest": "^24.9.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "jest": "^24.9.0",
     "typescript": "^3.7.5"
   }
 }

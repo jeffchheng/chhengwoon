@@ -1,6 +1,9 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import Nav from '../components/nav'
+import Nav from "../components/Nav"
+import PageHeader from "../components/PageHeader"
+import SectionHeader from "../components/SectionHeader"
+import PageWrapper from "../components/PageWrapper"
 
 export default function Details() {
   return (
@@ -13,10 +16,14 @@ export default function Details() {
   
       <Nav />
   
-      <div className="hero">
-        <h1 className="title">Wedding Details</h1>
-
-        <h3>Where</h3>
+      <PageWrapper>
+        <div className="text-center p-8">
+          <PageHeader>Wedding Details</PageHeader>
+          <p className="text-base">
+            The who, what, when, and where.
+          </p>
+        </div>
+        <SectionHeader>Where</SectionHeader>
         <p>The wedding ceremoney and reception will be held at the Arctic Club</p>
         <address>
           700 3rd Ave
@@ -24,31 +31,12 @@ export default function Details() {
           Seattle, WA 98104
         </address>
 
-        <h3>When</h3>
+        <SectionHeader>When</SectionHeader>
         <p>Some time in 2020.</p>
 
-        <h3>What to wear</h3>
+        <SectionHeader>What to wear</SectionHeader>
         <p>Stuff.</p>
-      </div>
-
-      <style jsx>{`
-        .hero {
-          margin: 0 auto;
-          max-width: 800px;
-          color: #333;
-        }
-        .title {
-          margin: 0;
-          width: 100%;
-          padding: 80px 0 25px;
-          line-height: 1.15;
-          font-size: 48px;
-        }
-        .title,
-        .description {
-          text-align: center;
-        }
-      `}</style>
+      </PageWrapper>
     </div>
   )
 }

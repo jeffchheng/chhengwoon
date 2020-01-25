@@ -1,6 +1,8 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import Nav from '../components/nav'
+import Nav from "../components/Nav"
+import PageHeader from "../components/PageHeader"
+import PageWrapper from "../components/PageWrapper"
 
 export default function RSVP() {
   return (
@@ -13,28 +15,9 @@ export default function RSVP() {
       
       <Nav />
   
-      <div className="hero">
-        <h1 className="title">RSVP</h1>
-      </div>
-
-      <style jsx>{`
-        .hero {
-          margin: 0 auto;
-          max-width: 800px;
-          color: #333;
-        }
-        .title {
-          margin: 0;
-          width: 100%;
-          padding: 80px 0 25px;
-          line-height: 1.15;
-          font-size: 48px;
-        }
-        .title,
-        .description {
-          text-align: center;
-        }
-      `}</style>
+      <PageWrapper>
+        <PageHeader>RSVP</PageHeader>
+      </PageWrapper>
     </div>
   )
 }

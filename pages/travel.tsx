@@ -1,6 +1,8 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import Nav from '../components/nav'
+import Nav from "../components/Nav"
+import PageHeader from "../components/PageHeader"
+import PageWrapper from "../components/PageWrapper"
 
 export default function Travel() {
   return (
@@ -13,9 +15,9 @@ export default function Travel() {
 
       <Nav />
   
-      <div className="hero">
-        <h1 className="title">Travel Information</h1>
-      </div>
+      <PageWrapper>
+        <PageHeader>Travel Information</PageHeader>
+      </PageWrapper>
 
       <style jsx>{`
         .hero {

@@ -1,6 +1,8 @@
-import Head from 'next/head'
+import Head from "next/head"
 
-import Nav from '../components/nav'
+import Nav from "../components/Nav"
+import PageHeader from "../components/PageHeader"
+import PageWrapper from "../components/PageWrapper"
 
 export default function OurStory() {
   return (
@@ -12,10 +14,10 @@ export default function OurStory() {
       </Head>
 
       <Nav />
-  
-      <div className="hero">
-        <h1 className="title">Our Story</h1>
-      </div>
+
+      <PageWrapper>
+        <PageHeader>Our Story</PageHeader>
+      </PageWrapper>
 
       <style jsx>{`
         .hero {
