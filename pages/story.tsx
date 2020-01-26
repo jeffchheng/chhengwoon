@@ -9,7 +9,7 @@ export default function OurStory() {
   return (
     <div>
       <Head>
-        <title>Our Story</title>
+        <title>Our Story - Jeff &amp; Nicole</title>
       </Head>
 
       <Nav />
@@ -17,6 +17,7 @@ export default function OurStory() {
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>Our Story</PageHeaderText>
+          <p>Learn more about us.</p>
         </PageHeader>
       </PageWrapper>
 

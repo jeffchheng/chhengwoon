@@ -11,12 +11,12 @@ export default function App({ Component, pageProps }: Props): JSX.Element {
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
       </Head>
       <Component {...pageProps} />
       <style jsx global>{`
         body {
-          font-family: Roboto, sans-serif;
+          font-family: 'Roboto Slab', sans-serif;
         }
       `}</style>
     </div>

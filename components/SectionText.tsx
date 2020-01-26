@@ -1,12 +1,12 @@
 import { PresentationalTypes } from "./PresentationalTypes"
 
-export default function PageHeaderText({
+export default function SectionText({
   className = "",
   children,
 }: PresentationalTypes) {
   return (
-    <h1 className={`py-4 text-5xl font-bold ${className}`}>
+    <p className={`py-3 ${className}`}>
       {children}
-    </h1>
+    </p>
   )
 }

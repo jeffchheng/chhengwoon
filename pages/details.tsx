@@ -10,7 +10,7 @@ export default function Details() {
   return (
     <div>
       <Head>
-        <title>Wedding Details</title>
+        <title>Wedding Details - Jeff &amp; Nicole</title>
       </Head>
   
       <Nav />
@@ -28,7 +28,7 @@ export default function Details() {
 
         <p>The wedding ceremony, cocktail hour, and reception will be held at the Arctic Club.</p>
 
-        <address className="py-2">
+        <address className="py-2 select-all">
           700 3rd Ave
           <br />
           Seattle, WA 98104

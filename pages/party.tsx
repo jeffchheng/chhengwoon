@@ -17,6 +17,7 @@ export default function WeddingParty() {
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>Wedding Party</PageHeaderText>
+          <p>Who are the cool kids?</p>
         </PageHeader>
       </PageWrapper>
 

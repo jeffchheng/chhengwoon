@@ -4,12 +4,13 @@ import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
+import SectionHeader from "../components/SectionHeader"
 
 export default function GiftRegistry() {
   return (
     <div>
       <Head>
-        <title>Gift Registry</title>
+        <title>Gift Registry - Jeff &amp; Nicole</title>
       </Head>
 
       <Nav />
@@ -17,7 +18,10 @@ export default function GiftRegistry() {
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>Gift Registry</PageHeaderText>
+          <p>Gifts are hard. Wondering what to get us?</p>
         </PageHeader>
+
+        <SectionHeader className="text-center">🚧 Coming soon. 🚧</SectionHeader>
       </PageWrapper>
     </div>
   )

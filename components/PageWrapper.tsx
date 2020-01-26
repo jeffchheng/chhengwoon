@@ -5,8 +5,10 @@ export default function PageWrapper({
   children,
 }: PresentationalTypes) {
   return (
-    <div className={`max-w-3xl mx-auto ${className}`}>
-      {children}
+    <div className="mx-5">
+      <div className={`max-w-3xl mx-auto ${className}`}>
+        {children}
+      </div>
     </div>
   )
 }

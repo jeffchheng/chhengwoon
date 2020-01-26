@@ -5,7 +5,7 @@ export default function PageHeader({
   children,
 }: PresentationalTypes) {
   return (
-    <div className={`text-center py-8${className}`}>
+    <div className={`text-center py-4 ${className}`}>
       {children}
     </div>
   )

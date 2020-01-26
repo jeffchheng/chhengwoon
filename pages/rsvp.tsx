@@ -10,7 +10,7 @@ export default function RSVP() {
   return (
     <div>
       <Head>
-        <title>RSVP</title>
+        <title>RSVP - Jeff &amp; Nicole</title>
       </Head>
       
       <Nav />
