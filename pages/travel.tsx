@@ -4,8 +4,8 @@ import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
-import SectionText from "../components/SectionText"
 import SectionHeader from "../components/SectionHeader"
+import SectionText from "../components/SectionText"
 
 type OutsideLinkProps = {
   href: string,
