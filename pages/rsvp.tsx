@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 
 export default function RSVP() {
@@ -16,7 +17,9 @@ export default function RSVP() {
       <Nav />
   
       <PageWrapper>
-        <PageHeader>RSVP</PageHeader>
+        <PageHeader>
+          <PageHeaderText>RSVP</PageHeaderText>
+        </PageHeader>
       </PageWrapper>
     </div>
   )

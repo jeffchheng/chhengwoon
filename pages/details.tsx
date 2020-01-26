@@ -2,8 +2,9 @@ import Head from "next/head"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
-import SectionHeader from "../components/SectionHeader"
+import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
+import SectionHeader from "../components/SectionHeader"
 
 export default function Details() {
   return (
@@ -17,12 +18,12 @@ export default function Details() {
       <Nav />
   
       <PageWrapper>
-        <div className="text-center p-8">
-          <PageHeader>Wedding Details</PageHeader>
+        <PageHeader>
+          <PageHeaderText>Wedding Details</PageHeaderText>
           <p className="text-base">
             The who, what, when, and where.
           </p>
-        </div>
+        </PageHeader>
         <SectionHeader>Where</SectionHeader>
         <p>The wedding ceremoney and reception will be held at the Arctic Club</p>
         <address>

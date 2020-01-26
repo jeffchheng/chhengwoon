@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 
 export default function GiftRegistry() {
@@ -16,27 +17,10 @@ export default function GiftRegistry() {
       <Nav />
   
       <PageWrapper>
-        <PageHeader>Gift Registry</PageHeader>
+        <PageHeader>
+          <PageHeaderText>Gift Registry</PageHeaderText>
+        </PageHeader>
       </PageWrapper>
-
-      <style jsx>{`
-        .hero {
-          margin: 0 auto;
-          max-width: 800px;
-          color: #333;
-        }
-        .title {
-          margin: 0;
-          width: 100%;
-          padding: 80px 0 25px;
-          line-height: 1.15;
-          font-size: 48px;
-        }
-        .title,
-        .description {
-          text-align: center;
-        }
-      `}</style>
     </div>
   )
 }

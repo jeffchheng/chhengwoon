@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 
 export default function WeddingParty() {
@@ -16,7 +17,9 @@ export default function WeddingParty() {
       <Nav />
   
       <PageWrapper>
-        <PageHeader>Wedding Party</PageHeader>
+        <PageHeader>
+          <PageHeaderText>Wedding Party</PageHeaderText>
+        </PageHeader>
       </PageWrapper>
 
       <style jsx>{`

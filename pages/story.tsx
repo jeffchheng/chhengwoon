@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 
 export default function OurStory() {
@@ -16,7 +17,9 @@ export default function OurStory() {
       <Nav />
 
       <PageWrapper>
-        <PageHeader>Our Story</PageHeader>
+        <PageHeader>
+          <PageHeaderText>Our Story</PageHeaderText>
+        </PageHeader>
       </PageWrapper>
 
       <style jsx>{`

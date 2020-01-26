@@ -1,12 +1,12 @@
 import { PresentationalTypes } from "./PresentationalTypes"
 
-export default function PageHeader({
+export default function PageHeaderText({
   className = "",
   children,
 }: PresentationalTypes) {
   return (
-    <div className={`text-center py-8${className}`}>
+    <h1 className={`py-8 text-5xl font-bold ${className}`}>
       {children}
-    </div>
+    </h1>
   )
 }

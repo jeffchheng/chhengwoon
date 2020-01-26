@@ -3,6 +3,7 @@ import Link from "next/link"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderText from "../components/PageHeaderText"
 
 const row1 = [
   {
@@ -51,12 +52,12 @@ export default function Home() {
   
       <Nav />
   
-      <div className="text-center p-8">
-        <PageHeader>Wedding Time</PageHeader>
+      <PageHeader>
+        <PageHeaderText>Wedding Time</PageHeaderText>
         <p className="text-base">
           Jeff Chheng and Nicole Woon&apos;s wedding.
         </p>
-      </div>
+      </PageHeader>
 
       <div className="max-w-3xl mx-auto flex flex-row justify-around">
         {row1.map(({ href, label, description }) => (
