@@ -9,9 +9,7 @@ export default function WeddingParty() {
   return (
     <div>
       <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+        <title>Wedding Party</title>
       </Head>
 
       <Nav />

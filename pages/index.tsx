@@ -4,12 +4,13 @@ import Link from "next/link"
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
 import PageHeaderText from "../components/PageHeaderText"
+import PageWrapper from "../components/PageWrapper"
 
 const row1 = [
   {
     href: "/details",
     label: "Wedding Details",
-    description: "The who, what, when, and where.",
+    description: "The when, where, and what to wear.",
   },
   {
     href: "/rsvp",
@@ -46,52 +47,52 @@ export default function Home() {
     <div>
       <Head>
         <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
       </Head>
   
       <Nav />
-  
-      <PageHeader>
-        <PageHeaderText>Wedding Time</PageHeaderText>
-        <p className="text-base">
-          Jeff Chheng and Nicole Woon&apos;s wedding.
-        </p>
-      </PageHeader>
 
-      <div className="max-w-3xl mx-auto flex flex-row justify-around">
-        {row1.map(({ href, label, description }) => (
-          <div key={`card-to-${href}`} className="m-2 w-full h-30 inline-block rounded overflow-hidden hover:shadow-lg">
-            <Link href={href}>
-              <a>
-                <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">{label} &rarr;</div>
-                  <p className="text-gray-700 text-base">
-                    {description}
-                  </p>
-                </div>
-              </a>
-            </Link>
-          </div>
-        ))}
-      </div>
+      <PageWrapper>
+        <PageHeader>
+          <PageHeaderText>Wedding Time</PageHeaderText>
+          <p>Jeff Chheng and Nicole Woon&apos;s wedding.</p>
+        </PageHeader>
 
-      <div className="max-w-3xl mx-auto flex flex-row justify-around">
-        {row2.map(({ href, label, description }) => (
-          <div key={`card-to-${href}`} className="m-2 w-full h-30 inline-block rounded overflow-hidden hover:shadow-lg">
-            <Link href={href}>
-              <a>
-                <div className="px-6 py-4">
-                  <div className="font-bold text-xl mb-2">{label} &rarr;</div>
-                  <p className="text-gray-700 text-base">
-                    {description}
-                  </p>
-                </div>
-              </a>
-            </Link>
-          </div>
-        ))}
-      </div>
+        <div className="max-w-3xl mx-auto flex flex-row justify-around">
+          {row1.map(({ href, label, description }) => (
+            <div
+              key={`card-to-${href}`} 
+              className="m-3 w-full h-30 inline-block rounded border border-gray-200 overflow-hidden shadow-md hover:shadow-xl"
+            >
+              <Link href={href}>
+                <a>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">{label} &rarr;</div>
+                    <p>{description}</p>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          ))}
+        </div>
+
+        <div className="max-w-3xl mx-auto flex flex-row justify-around">
+          {row2.map(({ href, label, description }) => (
+            <div
+              key={`card-to-${href}`}
+              className="m-3 w-full h-30 inline-block rounded border border-gray-200 overflow-hidden shadow-md hover:shadow-xl"
+            >
+              <Link href={href}>
+                <a>
+                  <div className="px-6 py-4">
+                    <div className="font-bold text-xl mb-2">{label} &rarr;</div>
+                    <p>{description}</p>
+                  </div>
+                </a>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </PageWrapper>
     </div>
   )
 } 

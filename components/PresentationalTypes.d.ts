@@ -1,4 +1,4 @@
 export type PresentationalTypes = {
   className?: string,
-  children: ReactChildren
+  children: ReactChildren | string
 }

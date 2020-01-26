@@ -9,9 +9,7 @@ export default function GiftRegistry() {
   return (
     <div>
       <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+        <title>Gift Registry</title>
       </Head>
 
       <Nav />

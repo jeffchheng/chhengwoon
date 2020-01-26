@@ -1,6 +1,5 @@
 import "../css/tailwind.css"
-
-import useDarkMode from "../hooks/useDarkMode"
+import Head from "next/head"
 
 type Props = {
   Component: Function,
@@ -8,7 +7,18 @@ type Props = {
 }
 
 export default function App({ Component, pageProps }: Props): JSX.Element {
-  const [darkMode] = useDarkMode()
-
-  return <Component darkMode={darkMode} {...pageProps} />
+  return (
+    <div>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+      </Head>
+      <Component {...pageProps} />
+      <style jsx global>{`
+        body {
+          font-family: Roboto, sans-serif;
+        }
+      `}</style>
+    </div>
+  )
 }

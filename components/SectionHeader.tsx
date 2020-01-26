@@ -5,7 +5,7 @@ export default function SectionHeader({
   children,
 }: PresentationalTypes) {
   return (
-    <h3 className={`font-bold text-xl py-2 ${className}`}>
+    <h3 className={`font-bold text-xl py-4 ${className}`}>
       {children}
     </h3>
   )

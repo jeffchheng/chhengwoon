@@ -9,9 +9,7 @@ export default function Travel() {
   return (
     <div>
       <Head>
-        <title>Home</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+        <title>Travel Information</title>
       </Head>
 
       <Nav />
