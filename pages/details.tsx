@@ -38,12 +38,12 @@ export default function Details() {
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10760.60788227898!2d-122.332065!3d47.6037346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd400f37346754679!2sThe%20Arctic%20Club%20Seattle%20-%20a%20DoubleTree%20by%20Hilton%20Hotel!5e0!3m2!1sen!2sus!4v1580025213845!5m2!1sen!2sus"
             frameBorder="0"
-            width="600"
-            height="450"
+            height="360"
             style={{
               border: 0,
               display: "block",
               margin: "0 auto",
+              width: "90%",
             }}
             allowFullScreen={false} />
         </div>
