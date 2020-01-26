@@ -9,7 +9,7 @@ export default function WeddingParty() {
   return (
     <div>
       <Head>
-        <title>Wedding Party</title>
+        <title>Wedding Party - Jeff &amp; Nicole</title>
       </Head>
 
       <Nav />

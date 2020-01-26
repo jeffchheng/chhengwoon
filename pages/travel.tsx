@@ -29,7 +29,7 @@ export default function Travel() {
   return (
     <div>
       <Head>
-        <title>Travel Information</title>
+        <title>Travel Information - Jeff &amp; Nicole</title>
       </Head>
 
       <Nav />
