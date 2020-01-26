@@ -6,7 +6,7 @@ export default function PageWrapper({
 }: PresentationalTypes) {
   return (
     <div className="mx-5">
-      <div className={`max-w-3xl mx-auto ${className}`}>
+      <div className={`max-w-4xl mx-auto ${className}`}>
         {children}
       </div>
     </div>

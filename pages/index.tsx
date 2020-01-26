@@ -57,29 +57,11 @@ export default function Home() {
           <p>Jeff Chheng and Nicole Woon&apos;s wedding.</p>
         </PageHeader>
 
-        <div className="max-w-3xl mx-auto flex flex-row justify-around">
-          {row1.map(({ href, label, description }) => (
+        <div className="max-w-4xl mx-auto flex flex-wrap flex-row justify-around">
+          {row1.concat(row2).map(({ href, label, description }) => (
             <div
               key={`card-to-${href}`} 
-              className="m-3 w-full h-30 inline-block rounded border border-gray-200 overflow-hidden shadow-md hover:shadow-xl"
-            >
-              <Link href={href}>
-                <a>
-                  <div className="px-6 py-4">
-                    <div className="font-bold text-xl mb-2">{label} &rarr;</div>
-                    <p>{description}</p>
-                  </div>
-                </a>
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        <div className="max-w-3xl mx-auto flex flex-row justify-around">
-          {row2.map(({ href, label, description }) => (
-            <div
-              key={`card-to-${href}`}
-              className="m-3 w-full h-30 inline-block rounded border border-gray-200 overflow-hidden shadow-md hover:shadow-xl"
+              className="m-4 w-full md:w-1/3 lg:w-64 h-30 inline-block rounded border border-gray-200 overflow-hidden shadow-md hover:shadow-xl"
             >
               <Link href={href}>
                 <a>
