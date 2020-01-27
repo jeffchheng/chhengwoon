@@ -25,7 +25,7 @@ export default function OurStory() {
           {(() => {
             const images = []
 
-            for (let i = 0; i <= 28; i++ ) {
+            for (let i = 0; i <= 26; i++ ) {
               images.push(
                 <Link key={`img-${i}`} href={`/story/${i}`}>
                   <a>

@@ -42,8 +42,8 @@ export default function Travel() {
           <p>Coming from out of town?</p>
         </PageHeader>
         <div className="border border-gray-200 p-4">
-          <img src="/seattle_skyline.jpg" alt="The Seattle skyline during sunset." />
-          <p className="pt-4">The beautiful Seattle skyline during sunset.</p>
+          <img src="/seattle_skyline.jpg" alt="The beautiful Seattle skyline from Kerry Park." />
+          <p className="pt-4">The beautiful Seattle skyline from Kerry Park.</p>
         </div>
         <SectionHeader>Getting to Seattle</SectionHeader>
         <SectionText>

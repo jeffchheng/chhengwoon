@@ -25,8 +25,9 @@ export default function OurStory() {
           <PageHeaderSeparator />
           <p>Photo.</p>
         </PageHeader>
-        <div className="w-full text-center">
+        <div>
           <img
+            className="w-full mx-auto"
             src={`/story/${router.query.image}.jpg`}
             onError={() => router.replace("/story")} />
         </div>
