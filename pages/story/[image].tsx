@@ -14,7 +14,7 @@ export default function OurStory() {
   return (
     <div>
       <Head>
-        <title>Our Story - Jeff &amp; Nicole</title>
+        <title>Our Story - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
 
       <Nav />

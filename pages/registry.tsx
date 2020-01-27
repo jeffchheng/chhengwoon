@@ -11,7 +11,7 @@ export default function GiftRegistry() {
   return (
     <div>
       <Head>
-        <title>Gift Registry - Jeff &amp; Nicole</title>
+        <title>Gift Registry - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
 
       <Nav />

@@ -30,7 +30,7 @@ export default function Travel() {
   return (
     <div>
       <Head>
-        <title>Travel Information - Jeff &amp; Nicole</title>
+        <title>Travel Information - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
 
       <Nav />
@@ -59,10 +59,11 @@ export default function Travel() {
           If you prefer to use a <OutsideLink href="https://www.portseattle.org/sea-tac/ground-transportation/app-based-rideshare">rideshare app</OutsideLink>, there are designated pick-up spots.
         </SectionText>
         <SectionText>
-          And finally, <OutsideLink href="">taxis</OutsideLink> are located on the third floor of the parking garage.
+          And finally, <OutsideLink href="https://www.portseattle.org/sea-tac/ground-transportation/taxis">taxis</OutsideLink> are located on the third floor of the parking garage.
         </SectionText>
 
         <SectionHeader>Staying in Seattle</SectionHeader>
+        <SectionText>There are plenty of <OutsideLink href="https://www.google.com/travel/hotels/Seattle?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271059%2C4274032%2C4291318%2C4305595%2C4308216%2C4311408%2C4314846%2C4315873%2C4317915%2C4328159%2C4329288%2C4330113%2C4338438%2C4340162%2C4270859%2C4284970%2C4291517%2C4292955%2C4307996&hl=en&gl=us&un=1&q=hotels%20seattle&rp=EK2Co5e5rcvLJhDCp-WCzpzv9rsBEM2Ai5KP4JiFTxCQneXL5qzPijQ4AUAASAI&ictx=1&ved=2ahUKEwiVm-TEiKPnAhXjLX0KHWnFCTwQtDV6BAgLEAU&hrf=CgUI4QEQACIDVVNEKhYKBwjkDxAMGAsSBwjkDxAMGA0YAiABsAEAWAFoAYoBKAoSCWnlXKbHy0dAEbzE08EEll7AEhIJsMVoAEHPR0ARvMTTFaOUXsCaAQkSB1NlYXR0bGWiARMKCC9tLzBkOWpyEgdTZWF0dGxlqgEKCgIIIRICCAgYAaoBCgoCCBISAghoGAGqAQcKAwihAhgAqgEfCgIIHBICCFESAghYEgIIRxICCDYSAghNEgMInQIYAaoBFwoCCCUSAgh1EgMIoAISAgh5EgIIehgBqgEOCgIIERICCCoSAgh_GAGqASQKAgguEgIIVhIDCIMBEgIISxICCAwSAghTEgMIiQESAggnGAGqAQ4KAgg1EgIICxICCBAYAZIBAiAB&ap=KigKEglp5Vymx8tHQBG8xNPBBJZewBISCbDFaABBz0dAEbzE0xWjlF7AMAJapgIKBQjhARAAIgNVU0QqFgoHCOQPEAwYCxIHCOQPEAwYDRgCIAGwAQBYAWgBigEoChIJfNkKCQrMR0ARvMTTGSWWXsASEgmf30Vag89HQBG8xNNtw5RewJoBCRIHU2VhdHRsZaIBEwoIL20vMGQ5anISB1NlYXR0bGWqAQoKAgghEgIICBgBqgEKCgIIEhICCGgYAaoBBwoDCKECGACqAR8KAggcEgIIURICCFgSAghHEgIINhICCE0SAwidAhgBqgEXCgIIJRICCHUSAwigAhICCHkSAgh6GAGqAQ4KAggREgIIKhICCH8YAaoBJAoCCC4SAghWEgMIgwESAghLEgIIDBICCFMSAwiJARICCCcYAaoBDgoCCDUSAggLEgIIEBgBkgECIAE">hotels</OutsideLink> downtown, from luxury suites to budget options, within walking distance of the Arctic Club. Or why walk when you could stay at the Arctic Club itself?</SectionText>
       </PageWrapper>
     </div>
   )

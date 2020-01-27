@@ -5,12 +5,13 @@ import PageHeader from "../components/PageHeader"
 import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
+import SectionHeader from "../components/SectionHeader"
 
 export default function WeddingParty() {
   return (
     <div>
       <Head>
-        <title>Wedding Party - Jeff &amp; Nicole</title>
+        <title>Wedding Party - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
 
       <Nav />
@@ -21,6 +22,8 @@ export default function WeddingParty() {
           <PageHeaderSeparator />
           <p>Who are the cool kids?</p>
         </PageHeader>
+
+        <SectionHeader className="text-center">🚧 Coming soon. 🚧</SectionHeader>
       </PageWrapper>
     </div>
   )

@@ -11,7 +11,7 @@ export default function Details() {
   return (
     <div>
       <Head>
-        <title>Wedding Details - Jeff &amp; Nicole</title>
+        <title>Wedding Details - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
   
       <Nav />

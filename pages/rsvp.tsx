@@ -11,7 +11,7 @@ export default function RSVP() {
   return (
     <div>
       <Head>
-        <title>RSVP - Jeff &amp; Nicole</title>
+        <title>RSVP - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
       
       <Nav />

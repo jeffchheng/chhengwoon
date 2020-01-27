@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Jeff &amp; Nicole</title>
+        <title>Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
   
       <Nav />
