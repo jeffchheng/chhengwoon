@@ -1,12 +1,11 @@
-import { PresentationalTypes } from "./PresentationalTypes"
+type Props = {
+  children?: any,
+}
 
-export default function SectionText({
-  className = "",
-  children,
-}: PresentationalTypes) {
+export default function SectionText(props: Props) {
   return (
-    <p className={`py-3 ${className}`}>
-      {children}
+    <p className="py-3">
+      {props.children}
     </p>
   )
 }

@@ -23,7 +23,7 @@ export default function RSVP() {
           <p>Let us know you&apos;re coming.</p>
         </PageHeader>
 
-        <SectionHeader className="text-center">🚧 Coming soon. 🚧</SectionHeader>
+        <SectionHeader textCenter>🚧 Coming soon. 🚧</SectionHeader>
       </PageWrapper>
     </div>
   )

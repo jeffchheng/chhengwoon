@@ -1,7 +1,5 @@
-import { ReactChildren } from "react"
-
 type Props = {
-  children?: ReactChildren
+  children?: any
   src: string,
   alt: string,
 }

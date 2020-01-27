@@ -23,7 +23,7 @@ export default function GiftRegistry() {
           <p>Gifts are hard. Wondering what to get us?</p>
         </PageHeader>
 
-        <SectionHeader className="text-center">🚧 Coming soon. 🚧</SectionHeader>
+        <SectionHeader textCenter>🚧 Coming soon. 🚧</SectionHeader>
       </PageWrapper>
     </div>
   )

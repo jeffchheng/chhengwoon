@@ -1,12 +1,11 @@
-import { PresentationalTypes } from "./PresentationalTypes"
+type Props = {
+  children?: any,
+}
 
-export default function PageHeader({
-  className = "",
-  children,
-}: PresentationalTypes) {
+export default function PageHeader(props: Props) {
   return (
-    <div className={`text-center py-4 ${className}`}>
-      {children}
+    <div className="text-center py-4">
+      {props.children}
     </div>
   )
 }

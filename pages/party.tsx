@@ -23,7 +23,7 @@ export default function WeddingParty() {
           <p>Who are the cool kids?</p>
         </PageHeader>
 
-        <SectionHeader className="text-center">🚧 Coming soon. 🚧</SectionHeader>
+        <SectionHeader textCenter>🚧 Coming soon. 🚧</SectionHeader>
       </PageWrapper>
     </div>
   )
