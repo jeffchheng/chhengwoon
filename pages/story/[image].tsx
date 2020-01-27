@@ -27,7 +27,7 @@ export default function OurStory() {
         </PageHeader>
         <div>
           <img
-            className="w-full mx-auto"
+            className="mx-auto"
             src={`/story/${router.query.image}.jpg`}
             onError={() => router.replace("/story")} />
         </div>
