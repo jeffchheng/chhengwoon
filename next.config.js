@@ -1,8 +1,7 @@
 const withOffline = require("next-offline")
 
 module.exports = withOffline({
-  transformManifest: manifest => ["/"].concat(manifest), // add the homepage to the cache
-  // generateInDevMode: false,
+  transformManifest: manifest => ["/"].concat(manifest),
   workboxOpts: {
     swDest: "static/service-worker.js",
     runtimeCaching: [
