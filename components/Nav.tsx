@@ -47,7 +47,7 @@ export default function Nav() {
         <div className="flex items-center flex-shrink-0 mr-6">
           <span className="font-semibold text-xl tracking-tight">
             <Link href="/">
-              <a className={`hover:text-${color}-600 ${router.pathname === "/" ? `text-${color}-800` : ""}`}>
+              <a className={`hover:text-${color}-600 ${router.pathname === "/" ? `text-${color}-600` : ""}`}>
                 Jeff &amp; Nicole
               </a>
             </Link>

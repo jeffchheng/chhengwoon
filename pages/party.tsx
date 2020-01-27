@@ -22,25 +22,6 @@ export default function WeddingParty() {
           <p>Who are the cool kids?</p>
         </PageHeader>
       </PageWrapper>
-
-      <style jsx>{`
-        .hero {
-          margin: 0 auto;
-          max-width: 800px;
-          color: #333;
-        }
-        .title {
-          margin: 0;
-          width: 100%;
-          padding: 80px 0 25px;
-          line-height: 1.15;
-          font-size: 48px;
-        }
-        .title,
-        .description {
-          text-align: center;
-        }
-      `}</style>
     </div>
   )
 }
