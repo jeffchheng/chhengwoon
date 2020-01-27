@@ -5,6 +5,7 @@ import PageHeader from "../components/PageHeader"
 import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
+import PhotoWithCaption from "../components/PhotoWithCaption"
 import SectionHeader from "../components/SectionHeader"
 
 export default function Details() {
@@ -22,6 +23,8 @@ export default function Details() {
           <PageHeaderSeparator />
           <p>The when, where, and what to wear.</p>
         </PageHeader>
+
+        <PhotoWithCaption src="/arctic_club_dome_room.jpg" alt="The iconic dome room at the Arctic Club." />
 
         <SectionHeader>When</SectionHeader>
         <p>Saturday, 12/12/2020. The reception starts at 3:00pm sharp.</p>

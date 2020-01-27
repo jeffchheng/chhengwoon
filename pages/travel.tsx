@@ -5,6 +5,7 @@ import PageHeader from "../components/PageHeader"
 import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
+import PhotoWithCaption from "../components/PhotoWithCaption"
 import SectionHeader from "../components/SectionHeader"
 import SectionText from "../components/SectionText"
 
@@ -41,10 +42,9 @@ export default function Travel() {
           <PageHeaderSeparator />
           <p>Coming from out of town?</p>
         </PageHeader>
-        <div className="border border-gray-200 p-4">
-          <img src="/seattle_skyline.jpg" alt="The beautiful Seattle skyline from Kerry Park." />
-          <p className="pt-4">The beautiful Seattle skyline from Kerry Park.</p>
-        </div>
+
+        <PhotoWithCaption src="/seattle_skyline.jpg" alt="The beautiful Seattle skyline from Kerry Park." />
+
         <SectionHeader>Getting to Seattle</SectionHeader>
         <SectionText>
           Sea-Tac (SEA) is the region&apos;s major airport. 
