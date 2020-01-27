@@ -12,6 +12,7 @@ export default function App({ Component, pageProps }: Props): JSX.Element {
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <Component {...pageProps} />
       <style jsx global>{`
