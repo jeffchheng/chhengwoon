@@ -41,7 +41,10 @@ export default function Travel() {
           <PageHeaderSeparator />
           <p>Coming from out of town?</p>
         </PageHeader>
-
+        <div className="border border-gray-200 p-4">
+          <img src="/seattle_skyline.jpg" alt="The Seattle skyline during sunset." />
+          <p className="pt-4">The beautiful Seattle skyline during sunset.</p>
+        </div>
         <SectionHeader>Getting to Seattle</SectionHeader>
         <SectionText>
           Sea-Tac (SEA) is the region&apos;s major airport. 
