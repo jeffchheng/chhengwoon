@@ -5,7 +5,7 @@ export default function PageHeaderText({
   children,
 }: PresentationalTypes) {
   return (
-    <h1 className={`py-4 text-5xl font-bold ${className}`}>
+    <h1 className={`text-5xl font-bold ${className}`}>
       {children}
     </h1>
   )

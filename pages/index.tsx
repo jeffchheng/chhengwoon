@@ -3,6 +3,7 @@ import Link from "next/link"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 
@@ -54,6 +55,7 @@ export default function Home() {
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>Wedding Time</PageHeaderText>
+          <PageHeaderSeparator />
           <p>Jeff Chheng and Nicole Woon&apos;s wedding.</p>
         </PageHeader>
 

@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 import SectionHeader from "../components/SectionHeader"
@@ -37,6 +38,7 @@ export default function Travel() {
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>Travel Information</PageHeaderText>
+          <PageHeaderSeparator />
           <p>Coming from out of town?</p>
         </PageHeader>
 

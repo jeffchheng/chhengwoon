@@ -2,6 +2,7 @@ import Head from "next/head"
 
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
+import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 import SectionHeader from "../components/SectionHeader"
@@ -18,6 +19,7 @@ export default function Details() {
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>Wedding Details</PageHeaderText>
+          <PageHeaderSeparator />
           <p>The when, where, and what to wear.</p>
         </PageHeader>
 
@@ -44,6 +46,7 @@ export default function Details() {
               display: "block",
               margin: "0 auto",
               width: "90%",
+              maxWidth: 600,
             }}
             allowFullScreen={false} />
         </div>
