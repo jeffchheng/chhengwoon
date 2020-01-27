@@ -54,9 +54,9 @@ export default function Home() {
 
       <PageWrapper>
         <PageHeader>
-          <PageHeaderText>Wedding Time</PageHeaderText>
+          <PageHeaderText>Jeff &amp; Nicole</PageHeaderText>
           <PageHeaderSeparator />
-          <p>Jeff Chheng and Nicole Woon&apos;s wedding.</p>
+          <p>12/12/2020</p>
         </PageHeader>
 
         <div className="max-w-4xl mx-auto flex flex-wrap flex-row justify-around">
