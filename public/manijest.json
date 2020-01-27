@@ -1,0 +1,16 @@
+{
+  "name": "Jeff & Nicole's Wedding",
+  "short_name": "J&N 2020",
+  "icons": [
+    {
+      "src": "/heart.png",
+      "type": "image/png",
+      "sizes": "160x160"
+    }
+  ],
+  "background_color": "#FFFFFF",
+  "description": "The official site for Jeff & Nicole's Wedding.",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#000"
+}
