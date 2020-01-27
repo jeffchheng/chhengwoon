@@ -24,7 +24,7 @@ export default function Details() {
           <p>The when, where, and what to wear.</p>
         </PageHeader>
 
-        <PhotoWithCaption src="/arctic_club_dome_room.jpg" alt="The iconic dome room at the Arctic Club." />
+        <PhotoWithCaption src="/arctic_club_polar_bar.jpg" alt="The iconic polar bar at the Arctic Club." />
 
         <SectionHeader>When</SectionHeader>
         <p>Saturday, 12/12/2020. The reception starts at 3:00pm sharp.</p>
