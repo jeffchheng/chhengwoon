@@ -27,7 +27,7 @@ export default function OurStory() {
 
             for (let i = 0; i <= 26; i++ ) {
               images.push(
-                <Link key={`img-${i}`} href={`/story/${i}`}>
+                <Link key={`img-${i}`} href="/story/[image]" as={`/story/${i}`}>
                   <a>
                     <img
                       className="inline-block object-cover p-4 w-full md:w-1/2 lg:w-1/3 h-full md:h-64"
