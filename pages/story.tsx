@@ -27,7 +27,7 @@ export default function OurStory() {
             for (let i = 0; i <= 26; i++) {
               images.push(
                 <img
-                  className="inline-block object-cover p-4 w-full h-full md:w-1/3 md:h-64"
+                  className="inline-block object-cover p-4 w-1/2 h-auto md:w-1/3"
                   height="600"
                   src={`/story/${i}.jpg`} />,
               )
