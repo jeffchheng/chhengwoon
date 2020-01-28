@@ -30,6 +30,7 @@ export default function OurStory() {
                 <Link key={`img-${i}`} href="/story/[image]" as={`/story/${i}`}>
                   <img
                     className="inline-block object-cover p-4 w-full h-full md:w-1/3 md:h-64"
+                    height="600"
                     src={`/story/${i}.jpg`} />
                 </Link>,
               )
