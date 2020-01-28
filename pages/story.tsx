@@ -21,7 +21,7 @@ export default function OurStory() {
           <PageHeaderSeparator />
           <p>Learn more about us.</p>
         </PageHeader>
-        <div className="w-full text-center">
+        <div className="flex flex-wrap flex-row justify-center">
           {(() => {
             const images = []
 
@@ -29,7 +29,7 @@ export default function OurStory() {
               images.push(
                 <Link key={`img-${i}`} href="/story/[image]" as={`/story/${i}`}>
                   <img
-                    className="inline-block object-cover p-4 w-full md:w-1/2 lg:w-1/3 h-full md:h-64"
+                    className="inline-block object-cover p-4 w-full h-full md:w-1/3 md:h-64"
                     src={`/story/${i}.jpg`} />
                 </Link>,
               )
