@@ -1,5 +1,4 @@
 import Head from "next/head"
-import Link from "next/link"
 import Nav from "../components/Nav"
 import PageHeader from "../components/PageHeader"
 import PageHeaderSeparator from "../components/PageHeaderSeparator"
@@ -25,14 +24,12 @@ export default function OurStory() {
           {(() => {
             const images = []
 
-            for (let i = 0; i <= 26; i++ ) {
+            for (let i = 0; i <= 26; i++) {
               images.push(
-                <Link key={`img-${i}`} href="/story/[image]" as={`/story/${i}`}>
-                  <img
-                    className="inline-block object-cover p-4 w-full h-full md:w-1/3 md:h-64"
-                    height="600"
-                    src={`/story/${i}.jpg`} />
-                </Link>,
+                <img
+                  className="inline-block object-cover p-4 w-full h-full md:w-1/3 md:h-64"
+                  height="600"
+                  src={`/story/${i}.jpg`} />,
               )
             }
 
