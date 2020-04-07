@@ -63,22 +63,30 @@ export default function Travel() {
         </SectionText>
 
         <SectionHeader>Staying in Seattle</SectionHeader>
-        <SectionText>There are plenty of <OutsideLink href="https://www.google.com/travel/hotels/Seattle?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271059%2C4274032%2C4291318%2C4305595%2C4308216%2C4311408%2C4314846%2C4315873%2C4317915%2C4328159%2C4329288%2C4330113%2C4338438%2C4340162%2C4270859%2C4284970%2C4291517%2C4292955%2C4307996&hl=en&gl=us&un=1&q=hotels%20seattle&rp=EK2Co5e5rcvLJhDCp-WCzpzv9rsBEM2Ai5KP4JiFTxCQneXL5qzPijQ4AUAASAI&ictx=1&ved=2ahUKEwiVm-TEiKPnAhXjLX0KHWnFCTwQtDV6BAgLEAU&hrf=CgUI4QEQACIDVVNEKhYKBwjkDxAMGAsSBwjkDxAMGA0YAiABsAEAWAFoAYoBKAoSCWnlXKbHy0dAEbzE08EEll7AEhIJsMVoAEHPR0ARvMTTFaOUXsCaAQkSB1NlYXR0bGWiARMKCC9tLzBkOWpyEgdTZWF0dGxlqgEKCgIIIRICCAgYAaoBCgoCCBISAghoGAGqAQcKAwihAhgAqgEfCgIIHBICCFESAghYEgIIRxICCDYSAghNEgMInQIYAaoBFwoCCCUSAgh1EgMIoAISAgh5EgIIehgBqgEOCgIIERICCCoSAgh_GAGqASQKAgguEgIIVhIDCIMBEgIISxICCAwSAghTEgMIiQESAggnGAGqAQ4KAgg1EgIICxICCBAYAZIBAiAB&ap=KigKEglp5Vymx8tHQBG8xNPBBJZewBISCbDFaABBz0dAEbzE0xWjlF7AMAJapgIKBQjhARAAIgNVU0QqFgoHCOQPEAwYCxIHCOQPEAwYDRgCIAGwAQBYAWgBigEoChIJfNkKCQrMR0ARvMTTGSWWXsASEgmf30Vag89HQBG8xNNtw5RewJoBCRIHU2VhdHRsZaIBEwoIL20vMGQ5anISB1NlYXR0bGWqAQoKAgghEgIICBgBqgEKCgIIEhICCGgYAaoBBwoDCKECGACqAR8KAggcEgIIURICCFgSAghHEgIINhICCE0SAwidAhgBqgEXCgIIJRICCHUSAwigAhICCHkSAgh6GAGqAQ4KAggREgIIKhICCH8YAaoBJAoCCC4SAghWEgMIgwESAghLEgIIDBICCFMSAwiJARICCCcYAaoBDgoCCDUSAggLEgIIEBgBkgECIAE">hotels</OutsideLink> downtown, from luxury suites to budget options, within walking distance of the Arctic Club. 
+        <SectionText>There are plenty of <OutsideLink href="https://www.google.com/travel/hotels/Seattle?g2lb=2502405%2C2502548%2C4208993%2C4254308%2C4258168%2C4260007%2C4270442%2C4271059%2C4274032%2C4291318%2C4305595%2C4308216%2C4311408%2C4314846%2C4315873%2C4317915%2C4328159%2C4329288%2C4330113%2C4338438%2C4340162%2C4270859%2C4284970%2C4291517%2C4292955%2C4307996&hl=en&gl=us&un=1&q=hotels%20seattle&rp=EK2Co5e5rcvLJhDCp-WCzpzv9rsBEM2Ai5KP4JiFTxCQneXL5qzPijQ4AUAASAI&ictx=1&ved=2ahUKEwiVm-TEiKPnAhXjLX0KHWnFCTwQtDV6BAgLEAU&hrf=CgUI4QEQACIDVVNEKhYKBwjkDxAMGAsSBwjkDxAMGA0YAiABsAEAWAFoAYoBKAoSCWnlXKbHy0dAEbzE08EEll7AEhIJsMVoAEHPR0ARvMTTFaOUXsCaAQkSB1NlYXR0bGWiARMKCC9tLzBkOWpyEgdTZWF0dGxlqgEKCgIIIRICCAgYAaoBCgoCCBISAghoGAGqAQcKAwihAhgAqgEfCgIIHBICCFESAghYEgIIRxICCDYSAghNEgMInQIYAaoBFwoCCCUSAgh1EgMIoAISAgh5EgIIehgBqgEOCgIIERICCCoSAgh_GAGqASQKAgguEgIIVhIDCIMBEgIISxICCAwSAghTEgMIiQESAggnGAGqAQ4KAgg1EgIICxICCBAYAZIBAiAB&ap=KigKEglp5Vymx8tHQBG8xNPBBJZewBISCbDFaABBz0dAEbzE0xWjlF7AMAJapgIKBQjhARAAIgNVU0QqFgoHCOQPEAwYCxIHCOQPEAwYDRgCIAGwAQBYAWgBigEoChIJfNkKCQrMR0ARvMTTGSWWXsASEgmf30Vag89HQBG8xNNtw5RewJoBCRIHU2VhdHRsZaIBEwoIL20vMGQ5anISB1NlYXR0bGWqAQoKAgghEgIICBgBqgEKCgIIEhICCGgYAaoBBwoDCKECGACqAR8KAggcEgIIURICCFgSAghHEgIINhICCE0SAwidAhgBqgEXCgIIJRICCHUSAwigAhICCHkSAgh6GAGqAQ4KAggREgIIKhICCH8YAaoBJAoCCC4SAghWEgMIgwESAghLEgIIDBICCFMSAwiJARICCCcYAaoBDgoCCDUSAggLEgIIEBgBkgECIAE">hotels</OutsideLink> downtown, from luxury suites to budget options, within walking distance of the Arctic Club. </SectionText>
           
-        <SectionText>Or why walk when you could stay at the Arctic Club itself? 
-          
-          <i>700 3rd Ave
-            Seattle, Washington 98104</i>
-          
-          Make reservations directly through <OutsideLink href="https://doubletree.hilton.com/en/dt/groups/personalized/S/SEAACDT-CWW-20201210/index.jhtml?WT.mc_id=POG">Hilton's website here</OutsideLink>. The group code is CWW with check-ins as early as December 10, 2020, and check-outs as late as December 14, 2020. For a room in our room block, which is on the same floor as the ceremony/reception, you'll need to pick the $219 king bed option. The cutoff date to make reservations is on 11/12/2020. If you have any issues reserving rooms, you may call sales coordinator Chipo Muchelemba directly on 206-631-8060 or 206-340-0340.
-        
+        <SectionText>
+          Or why walk when you could stay at the Arctic Club itself? Make reservations directly through <OutsideLink href="https://doubletree.hilton.com/en/dt/groups/personalized/S/SEAACDT-CWW-20201210/index.jhtml?WT.mc_id=POG">Hilton&apos;s website</OutsideLink>.
         </SectionText>
+        <ul className="list-disc list-outside px-10">
+          <li>
+            The group code is CWW. 
+          </li>
+          <li>
+            Check in as early as December 10, 2020, and check out as late as December 14, 2020. 
+          </li>
+          <li>
+            For a room in our room block, which is on the same floor as the ceremony/reception, you&apos;ll need to pick the $219 king bed option. 
+          </li>
+          <li>
+            The cutoff date to make reservations is November 12, 2020. 
+          </li>
+          <li>
+            If you have any issues reserving rooms, you may call sales coordinator Chipo Muchelemba directly on 206-631-8060 or 206-340-0340.
+          </li>
+        </ul>
         
-        <address className="py-2 select-all">
-          700 3rd Ave
-          <br />
-          Seattle, WA 98104
-        </address>
+        
 
         <div className="py-4">
           <iframe
