@@ -48,7 +48,7 @@ export default function WeddingParty() {
           </div>
         </div>
         <div className="flex flex-wrap">
-          <div className="w-1/2 p-2">
+          <div className="w-full md:w-1/2 p-2">
             <div className="rounded overflow-hidden shadow-lg h-full">
               <img className="w-full object-cover object-top" src="/party/nicole-jamie.jpg" alt="Nicole and Jamie" />
               <div className="px-6 py-4">
@@ -59,7 +59,7 @@ export default function WeddingParty() {
               </div>
             </div>
           </div>
-          <div className="w-1/2 p-2">
+          <div className="w-full md:w-1/2 p-2">
             <div className="mx-auto rounded overflow-hidden shadow-lg h-full">
               <img className="w-full" src="/party/nicole-angelica.jpg" alt="Nicole and Angelica" />
               <div className="px-6 py-4">
