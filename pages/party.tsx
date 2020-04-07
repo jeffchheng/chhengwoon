@@ -54,7 +54,7 @@ export default function WeddingParty() {
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Jamie Lee</div>
                 <p className="text-gray-700 text-base">
-                  Jamie and Nicole met online in a Facebook group matching Microsoft summer intern coordinators. They&apos;ve since survived four summers leading interns and have had many adventures throughout the year. They enjoy chatting about all things Disney, solving puzzles and brain teasers, and working on arts and crafts.
+                  Jamie and Nicole met online in a Facebook group matching Microsoft summer intern coordinators. They&apos;ve since survived four summers leading interns and have had many adventures throughout the years. They enjoy chatting about all things Disney, solving puzzles and brain teasers, and working on arts and crafts.
                 </p>
               </div>
             </div>
