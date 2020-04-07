@@ -23,6 +23,7 @@ export default function WeddingParty() {
           
         </PageHeader>
         <SectionHeader textCenter>Bridesmaids</SectionHeader>
+        <PageHeaderSeparator small />
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 p-2">
             <div className="rounded overflow-hidden shadow-lg h-full">
@@ -73,6 +74,7 @@ export default function WeddingParty() {
         </div>
         
         <SectionHeader textCenter>Groomsmen</SectionHeader>
+        <PageHeaderSeparator small />
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 p-2">
             <div className="rounded overflow-hidden shadow-lg h-full">
