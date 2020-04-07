@@ -5,7 +5,6 @@ import PageHeader from "../components/PageHeader"
 import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
-import SectionHeader from "../components/SectionHeader"
 
 export default function RSVP() {
   return (
