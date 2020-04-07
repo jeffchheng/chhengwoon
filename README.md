@@ -1,3 +1,3 @@
-# Our wedding site
+# [Our wedding site](https://chhengwoon.now.sh/)
 
-A work-in-progress.
+Built with TypeScript, Next.js, and Tailwind CSS. Deployed with Zeit Now.
