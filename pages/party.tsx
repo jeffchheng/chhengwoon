@@ -6,7 +6,6 @@ import PageHeaderSeparator from "../components/PageHeaderSeparator"
 import PageHeaderText from "../components/PageHeaderText"
 import PageWrapper from "../components/PageWrapper"
 import SectionHeader from "../components/SectionHeader"
-import SectionText from "../components/SectionText"
 
 export default function WeddingParty() {
   return (
