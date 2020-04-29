@@ -1,10 +1,10 @@
-import Head from "next/head"
+import Head from "next/head";
 
-import Nav from "../components/Nav"
-import PageHeader from "../components/PageHeader"
-import PageHeaderSeparator from "../components/PageHeaderSeparator"
-import PageHeaderText from "../components/PageHeaderText"
-import PageWrapper from "../components/PageWrapper"
+import Nav from "../components/Nav";
+import PageHeader from "../components/PageHeader";
+import PageHeaderSeparator from "../components/PageHeaderSeparator";
+import PageHeaderText from "../components/PageHeaderText";
+import PageWrapper from "../components/PageWrapper";
 
 export default function RSVP() {
   return (
@@ -12,9 +12,9 @@ export default function RSVP() {
       <Head>
         <title>RSVP - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
-      
+
       <Nav />
-  
+
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>RSVP</PageHeaderText>
@@ -38,5 +38,5 @@ export default function RSVP() {
         </iframe>
       </PageWrapper>
     </div>
-  )
+  );
 }

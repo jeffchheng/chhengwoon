@@ -1,10 +1,10 @@
-import "../css/tailwind.css"
-import Head from "next/head"
+import "../css/tailwind.css";
+import Head from "next/head";
 
 type Props = {
-  Component: Function,
-  pageProps: object,
-}
+  Component: Function;
+  pageProps: object;
+};
 
 export default function App({ Component, pageProps }: Props): JSX.Element {
   return (
@@ -16,9 +16,9 @@ export default function App({ Component, pageProps }: Props): JSX.Element {
       <Component {...pageProps} />
       <style jsx global>{`
         body {
-          font-family: 'Roboto Slab', Georgia, serif;
+          font-family: "Roboto Slab", Georgia, serif;
         }
       `}</style>
     </div>
-  )
+  );
 }

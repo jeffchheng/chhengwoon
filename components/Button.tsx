@@ -1,11 +1,9 @@
-import {
-  MouseEventHandler,
-} from "react"
+import { MouseEventHandler } from "react";
 
 type Props = {
-  onClick?: MouseEventHandler,
-  children?: any,
-}
+  onClick?: MouseEventHandler;
+  children?: any;
+};
 
 export default function Button(props: Props) {
   return (
@@ -15,5 +13,5 @@ export default function Button(props: Props) {
     >
       {props.children}
     </button>
-  )
+  );
 }

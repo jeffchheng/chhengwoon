@@ -1,11 +1,11 @@
-import Head from "next/head"
-import Link from "next/link"
+import Head from "next/head";
+import Link from "next/link";
 
-import Nav from "../components/Nav"
-import PageHeader from "../components/PageHeader"
-import PageHeaderSeparator from "../components/PageHeaderSeparator"
-import PageHeaderText from "../components/PageHeaderText"
-import PageWrapper from "../components/PageWrapper"
+import Nav from "../components/Nav";
+import PageHeader from "../components/PageHeader";
+import PageHeaderSeparator from "../components/PageHeaderSeparator";
+import PageHeaderText from "../components/PageHeaderText";
+import PageWrapper from "../components/PageWrapper";
 
 const row1 = [
   {
@@ -23,7 +23,7 @@ const row1 = [
     label: "Travel Info",
     description: "Coming from out of town?",
   },
-]
+];
 
 const row2 = [
   {
@@ -41,7 +41,7 @@ const row2 = [
     label: "Gift Registry",
     description: "Gifts are hard. Wondering what to get us?",
   },
-]
+];
 
 export default function Home() {
   return (
@@ -49,7 +49,7 @@ export default function Home() {
       <Head>
         <title>Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
-  
+
       <Nav />
 
       <PageWrapper>
@@ -62,7 +62,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto flex flex-wrap flex-row justify-around">
           {row1.concat(row2).map(({ href, label, description }) => (
             <div
-              key={`card-to-${href}`} 
+              key={`card-to-${href}`}
               className="m-4 w-full md:w-1/3 lg:w-64 h-30 inline-block rounded border border-gray-200 overflow-hidden shadow-md hover:shadow-xl"
             >
               <Link href={href}>
@@ -78,5 +78,5 @@ export default function Home() {
         </div>
       </PageWrapper>
     </div>
-  )
-} 
+  );
+}

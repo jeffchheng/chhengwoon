@@ -1,12 +1,12 @@
-import Head from "next/head"
+import Head from "next/head";
 
-import Nav from "../components/Nav"
-import PageHeader from "../components/PageHeader"
-import PageHeaderSeparator from "../components/PageHeaderSeparator"
-import PageHeaderText from "../components/PageHeaderText"
-import PageWrapper from "../components/PageWrapper"
-import PhotoWithCaption from "../components/PhotoWithCaption"
-import SectionHeader from "../components/SectionHeader"
+import Nav from "../components/Nav";
+import PageHeader from "../components/PageHeader";
+import PageHeaderSeparator from "../components/PageHeaderSeparator";
+import PageHeaderText from "../components/PageHeaderText";
+import PageWrapper from "../components/PageWrapper";
+import PhotoWithCaption from "../components/PhotoWithCaption";
+import SectionHeader from "../components/SectionHeader";
 
 export default function Details() {
   return (
@@ -14,9 +14,9 @@ export default function Details() {
       <Head>
         <title>Wedding Details - Jeff &amp; Nicole&apos;s Wedding</title>
       </Head>
-  
+
       <Nav />
-  
+
       <PageWrapper>
         <PageHeader>
           <PageHeaderText>Wedding Details</PageHeaderText>
@@ -24,14 +24,20 @@ export default function Details() {
           <p>The when, where, and what to wear.</p>
         </PageHeader>
 
-        <PhotoWithCaption src="/arctic_club_polar_bar.jpg" alt="The iconic polar bar at the Arctic Club." />
+        <PhotoWithCaption
+          src="/arctic_club_polar_bar.jpg"
+          alt="The iconic polar bar at the Arctic Club."
+        />
 
         <SectionHeader>When</SectionHeader>
         <p>Saturday, 12/12/2020. The reception starts at 3:00pm sharp.</p>
 
         <SectionHeader>Where</SectionHeader>
 
-        <p>The wedding ceremony, cocktail hour, and reception will be held at the Arctic Club.</p>
+        <p>
+          The wedding ceremony, cocktail hour, and reception will be held at the
+          Arctic Club.
+        </p>
 
         <address className="py-2 select-all">
           700 3rd Ave
@@ -51,12 +57,13 @@ export default function Details() {
               width: "90%",
               maxWidth: 600,
             }}
-            allowFullScreen={false} />
+            allowFullScreen={false}
+          />
         </div>
 
         <SectionHeader>What to wear</SectionHeader>
         <p>Formal attire, please.</p>
       </PageWrapper>
     </div>
-  )
+  );
 }
