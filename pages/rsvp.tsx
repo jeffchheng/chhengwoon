@@ -24,7 +24,7 @@ export default function RSVP() {
 
         <iframe
           src="https://docs.google.com/forms/d/e/1FAIpQLSczb8Bz0NAQGvNWjzdewFbkfl7H6JTg0cakaWY7jn1Gfw9oVQ/viewform?embedded=true"
-          height="1280"
+          height="500"
           frameBorder="0"
           style={{
             border: 0,
