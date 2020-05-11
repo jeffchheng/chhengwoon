@@ -4,6 +4,7 @@ import PageHeader from "../components/PageHeader";
 import PageHeaderSeparator from "../components/PageHeaderSeparator";
 import PageHeaderText from "../components/PageHeaderText";
 import PageWrapper from "../components/PageWrapper";
+import SectionText from "../components/SectionText";
 
 export default function OurStory() {
   return (
@@ -20,6 +21,12 @@ export default function OurStory() {
           <PageHeaderSeparator />
           <p>Learn more about us.</p>
         </PageHeader>
+        <SectionText>
+          We met on Coffee Meets Bagel after I sent Nicole a woo. Our third date lasted from dawn to dusk — we went to a cat cafe, strolled through the city, watched &quot;The Shape of Water,&quot; and stuffed our faces at a beer hall. From then on, we knew we had something special.
+        </SectionText>
+        <SectionText>
+          We enjoy trying new restaurants, watching TV, playing games, and being silly together. (Having 3-starred all of Overcooked, we know we can overcome anything.) We love going on adventures together and have explored both domestically and internationally (Japan, Greece, Czech Republic, Switzerland), and are excited for our biggest adventure yet!
+        </SectionText>
         <div className="flex flex-wrap flex-row justify-center">
           {(() => {
             const images = [];
