@@ -22,7 +22,7 @@ export default function OurStory() {
           <p>Learn more about us.</p>
         </PageHeader>
         <SectionText>
-          We met on Coffee Meets Bagel after I sent Nicole a woo. Our third date lasted from dawn to dusk — we went to a cat cafe, strolled through the city, watched &quot;The Shape of Water,&quot; and stuffed our faces at a beer hall. From then on, we knew we had something special.
+          We met on Coffee Meets Bagel after Jeff sent Nicole a woo. Our third date lasted from dawn to dusk — we went to a cat cafe, strolled through the city, watched &quot;The Shape of Water,&quot; and stuffed our faces at a beer hall. From then on, we knew we had something special.
         </SectionText>
         <SectionText>
           We enjoy trying new restaurants, watching TV, playing games, and being silly together. (Having 3-starred all of Overcooked, we know we can overcome anything.) We love going on adventures together and have explored both domestically and internationally (Japan, Greece, Czech Republic, Switzerland), and are excited for our biggest adventure yet!
@@ -34,7 +34,7 @@ export default function OurStory() {
             for (let i = 0; i <= 26; i++) {
               images.push(
                 <img
-                  className="inline-block object-cover p-4 w-full h-full md:h-auto md:w-1/2 lg:w-1/3"
+                className="inline-block object-cover p-4 w-full h-full md:h-auto md:w-1/2 lg:w-1/3"
                   height="600"
                   src={`/story/${i}.jpg`}
                 />
