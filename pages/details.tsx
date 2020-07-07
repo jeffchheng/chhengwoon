@@ -26,7 +26,7 @@ export default function Details() {
 
         <PhotoWithCaption
           src="/arctic_club_polar_bar.jpg"
-          alt="The iconic polar bar at the Arctic Club."
+          alt="The iconic Polar Bar at the Arctic Club."
         />
 
         <SectionHeader>When</SectionHeader>

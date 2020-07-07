@@ -24,8 +24,8 @@ export const locations = [
     label: "Wedding Party",
   },
   {
-    href: "/registry",
-    label: "Gift Registry",
+    href: "/faqs",
+    label: "FAQs",
   },
 ];
 

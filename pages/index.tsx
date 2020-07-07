@@ -37,9 +37,9 @@ const row2 = [
     description: "Who are the cool kids?",
   },
   {
-    href: "/registry",
-    label: "Gift Registry",
-    description: "Gifts are hard. Wondering what to get us?",
+    href: "/faqs",
+    label: "FAQs",
+    description: "Got a question?",
   },
 ];
 

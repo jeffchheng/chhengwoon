@@ -45,7 +45,7 @@ export default function Travel() {
 
         <PhotoWithCaption
           src="/seattle_skyline.jpg"
-          alt="The beautiful Seattle skyline from Kerry Park."
+          alt="The beautiful Seattle skyline from Kerry Park. (Photo Credit: Nicole)"
         />
 
         <SectionHeader>Getting to Seattle</SectionHeader>
