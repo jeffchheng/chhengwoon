@@ -30,13 +30,13 @@ export default function Details() {
         />
 
         <SectionHeader>When</SectionHeader>
-        <p>Saturday, 12/12/2020. The reception starts at 3:00pm sharp.</p>
+        <p>Saturday, 12/12/2020. The reception starts at 3 pm sharp. This will be followed by a cocktail hour, with the dinner reception starting at 5 pm. </p>
 
         <SectionHeader>Where</SectionHeader>
 
         <p>
           The wedding ceremony, cocktail hour, and reception will be held at the
-          Arctic Club.
+          Arctic Club. All locations will be indoors. 
         </p>
 
         <address className="py-2 select-all">

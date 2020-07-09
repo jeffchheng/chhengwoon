@@ -66,8 +66,8 @@ export default function Travel() {
           </OutsideLink>
           . There are ticket counters located on the floor below the platform.
           Link trains run every 6, 10 or 15 minutes depending on the time of
-          day. Service is available from 5 a.m. to 1 a.m. Monday through
-          Saturday, and from 6 a.m. to midnight on Sunday and holidays. Adult
+          day. Service is available from 5 am to 1 am. Monday through
+          Saturday, and from 6 am to midnight on Sunday and holidays. Adult
           fares range from $2.25 to $3.25 depending on how far you travel. The
           closest stop to the Arctic Club is the{" "}
           <OutsideLink href="https://www.soundtransit.org/ride-with-us/stations/link-light-rail-stations/pioneer-square-station">
