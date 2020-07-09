@@ -44,14 +44,14 @@ export default function GiftRegistry() {
           <strong>What about COVID-19?</strong>
         </SectionText>
         <SectionText>
-          Washington State has a four-phase reopening plan that incrementally allows for more in-person activities as long as COVID-19 key indicators remain within certain parameters. Seattle is located in King County - the county&apos;s latest status can be found <a href="https://www.kingcounty.gov/depts/health/covid-19/safe-start.aspx">here</a>. If for some reason we need to postpone or cancel, we will add an announcement to this site and contact you based on the email provided in the RSVP. 
+          Washington State has a four-phase reopening plan that incrementally allows for more in-person activities as long as COVID-19 key indicators remain within certain parameters. Seattle is located in King County - the county&apos;s latest status can be found <OutsideLink href="https://www.kingcounty.gov/depts/health/covid-19/safe-start.aspx">here</OutsideLink>. If for some reason we need to postpone or cancel, we will add an announcement to this site and contact you based on the email provided in the RSVP. 
         </SectionText>
 
         <SectionText>
           <strong>Are plus-ones allowed?</strong>
         </SectionText>
         <SectionText>
-          Please refer to the name(s) listed on your invitation&apos;s envelope. Contact us if you have any questions.
+          We will only be able to accommodate the name(s) formally listed on your invitation. Contact us if you have any questions.
         </SectionText>
 
         <SectionHeader>Day of the Wedding</SectionHeader>
@@ -60,17 +60,17 @@ export default function GiftRegistry() {
           <strong>What time should we arrive?</strong>
         </SectionText>
         <SectionText>
-          15-20 mins early before the ceremony starts so you have time to be seated and settle in.
+          15-20 mins before the ceremony starts so you have time to be seated and settle in.
         </SectionText>
 
         <SectionText>
           <strong>Where do we park?</strong>
         </SectionText>
         <SectionText>
-          There is valet parking at the hotel. It is $48 if staying for the evening (8-12 hours), and $53 if staying 12-24 hours/overnight. 
+          There is valet parking at the hotel. If staying for the evening, it is $41 for 4-8 hours and $48 for 8-12 hours. If staying overnight/12-24 hours, it is $53. 
           </SectionText>
         <SectionText>
-          There is also an unattended parking structure half a block to the east. It is $10 if staying for up to 10 hours on the weekend, and $20 if staying overnight (anytime after 2 pm until 8:30 am the next day).
+          There is also an unattended parking structure half a block to the east. As of January 2020, it is $10 if staying for up to 10 hours on the weekend, and $20 if staying overnight (anytime after 2 pm until 8:30 am the next day).
         </SectionText>
 
         <SectionText>
@@ -93,7 +93,7 @@ export default function GiftRegistry() {
           <strong>Do you have a gift registry?</strong>
         </SectionText>
         <SectionText>
-          We do not have any gift registries. The best present you could possibly give is to join us in person to celebrate! Consider making a donation to Black Lives Matter instead!
+          We do not have any gift registries. The best present you could possibly give us is to join in person to celebrate!
         </SectionText>
 
         <SectionText>
