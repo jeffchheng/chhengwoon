@@ -7,6 +7,7 @@ import PageHeaderText from "../components/PageHeaderText";
 import PageWrapper from "../components/PageWrapper";
 import PhotoWithCaption from "../components/PhotoWithCaption";
 import SectionHeader from "../components/SectionHeader";
+import SectionText from "../components/SectionText";
 
 export default function Details() {
   return (
@@ -21,29 +22,29 @@ export default function Details() {
         <PageHeader>
           <PageHeaderText>Wedding Details</PageHeaderText>
           <PageHeaderSeparator />
-          <p>The when, where, and what to wear.</p>
+
         </PageHeader>
 
         <PhotoWithCaption
-          src="/arctic_club_polar_bar.jpg"
-          alt="The iconic Polar Bar at the Arctic Club."
+          src="/arctic-club-exterior.jpg"
+          alt="The Arctic Club's exterior (note the terra cotta walrus sculptures lining the building!)."
         />
 
         <SectionHeader>When</SectionHeader>
-        <p>Saturday, 12/12/2020. The reception starts at 3 pm sharp. This will be followed by a cocktail hour, with the dinner reception starting at 5 pm. </p>
+        <SectionText>The wedding will take place on Saturday, 12/12/2020. The ceremony, cocktail hour, and reception will be held at the Arctic Club. All locations will be indoors. </SectionText>
+          
+        <SectionText>The ceremony starts at 3 pm in the Northern Lights Dome Room on the 2nd floor. This will be followed by a cocktail hour in the Polar Bar lounge area on the 1st floor. The dinner reception starts at 5 pm back in the Northern Lights Dome Room on the 2nd floor. There are both stairs and elevators available to travel between floors.</SectionText>
+
 
         <SectionHeader>Where</SectionHeader>
-
-        <p>
-          The wedding ceremony, cocktail hour, and reception will be held at the
-          Arctic Club. All locations will be indoors. 
-        </p>
 
         <address className="py-2 select-all">
           700 3rd Ave
           <br />
           Seattle, WA 98104
         </address>
+
+        <SectionText>The building is at the northeast corner of 3rd Avenue and Cherry Street. The main entrance connecting to the lobby is on Cherry Street. If you require an accessible entrance, please enter on 3rd Avenue.</SectionText>
 
         <div className="py-4">
           <iframe
@@ -63,6 +64,9 @@ export default function Details() {
 
         <SectionHeader>What to wear</SectionHeader>
         <p>Formal attire, please.</p>
+
+       
+
       </PageWrapper>
     </div>
   );

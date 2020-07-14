@@ -34,7 +34,7 @@ const row2 = [
   {
     href: "/party",
     label: "Wedding Party",
-    description: "Who are the cool kids?",
+    description: "Who's supporting us on our big day?",
   },
   {
     href: "/faqs",

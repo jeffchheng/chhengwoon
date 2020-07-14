@@ -37,7 +37,7 @@ export default function GiftRegistry() {
           <strong>I lost my RSVP...</strong>
         </SectionText>
         <SectionText>
-          Oops, it happens! Shoot us a message at chhengwoon@gmail.com or give us a call/text. 
+          Oops, it happens! Send us a message at chhengwoon@gmail.com or give us a call/text. 
         </SectionText>
 
         <SectionText>
@@ -60,7 +60,7 @@ export default function GiftRegistry() {
           <strong>What time should we arrive?</strong>
         </SectionText>
         <SectionText>
-          15-20 mins before the ceremony starts so you have time to be seated and settle in.
+          Doors open at 2:15 pm and the ceremony begins at 3 pm, so you have plenty of time to be seated and settle in.
         </SectionText>
 
         <SectionText>
@@ -77,7 +77,7 @@ export default function GiftRegistry() {
           <strong>Is the venue accessible?</strong>
         </SectionText>
         <SectionText>
-          Yes! The hotel&apos;s accessible public entrance is on 3rd Avenue, and there are elevators to travel between floors. Note that the ceremony and reception will take place on the second floor in the Northern Lights Dome Room, and the cocktail hour will take place on the first floor in the Polar Bar&apos;s lounge area. 
+          Yes! The hotel&apos;s accessible public entrance is on 3rd Avenue, and there are elevators to travel between floors. Note that the ceremony and reception will take place on the 2nd floor in the Northern Lights Dome Room, and the cocktail hour will take place on the 1st floor in the Polar Bar&apos;s lounge area. 
         </SectionText>
 
         <SectionHeader>Miscellaneous</SectionHeader>

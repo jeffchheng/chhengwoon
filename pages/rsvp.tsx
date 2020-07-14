@@ -6,6 +6,7 @@ import PageHeader from "../components/PageHeader";
 import PageHeaderSeparator from "../components/PageHeaderSeparator";
 import PageHeaderText from "../components/PageHeaderText";
 import PageWrapper from "../components/PageWrapper";
+import PhotoWithCaption from "../components/PhotoWithCaption";
 import SectionText from "../components/SectionText";
 
 export default function RSVP() {
@@ -21,8 +22,13 @@ export default function RSVP() {
         <PageHeader>
           <PageHeaderText>RSVP</PageHeaderText>
           <PageHeaderSeparator />
-          <p>Let us know you&apos;re coming.</p>
+
         </PageHeader>
+
+        <PhotoWithCaption
+          src="/arctic_club_polar_bar.jpg"
+          alt="The iconic Polar Bar at the Arctic Club."
+        />
 
         <SectionText>
           Please RSVP by November 1, 2020, using <OutsideLink href="https://docs.google.com/forms/d/e/1FAIpQLSczb8Bz0NAQGvNWjzdewFbkfl7H6JTg0cakaWY7jn1Gfw9oVQ/viewform">this form.</OutsideLink>
