@@ -22,7 +22,6 @@ export default function RSVP() {
         <PageHeader>
           <PageHeaderText>RSVP</PageHeaderText>
           <PageHeaderSeparator />
-
         </PageHeader>
 
         <PhotoWithCaption
@@ -31,7 +30,10 @@ export default function RSVP() {
         />
 
         <SectionText>
-          Please RSVP by November 1, 2020, using <OutsideLink href="https://docs.google.com/forms/d/e/1FAIpQLSczb8Bz0NAQGvNWjzdewFbkfl7H6JTg0cakaWY7jn1Gfw9oVQ/viewform">this form.</OutsideLink>
+          Please RSVP by November 1, 2020, using{" "}
+          <OutsideLink href="https://docs.google.com/forms/d/e/1FAIpQLSczb8Bz0NAQGvNWjzdewFbkfl7H6JTg0cakaWY7jn1Gfw9oVQ/viewform">
+            this form.
+          </OutsideLink>
         </SectionText>
       </PageWrapper>
     </div>

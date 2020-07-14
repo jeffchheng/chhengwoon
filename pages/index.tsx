@@ -61,7 +61,8 @@ export default function Home() {
         <img
           className="mx-auto"
           src="/jeff-and-nicole-engaged.jpg"
-          alt="Jeff and Nicole on the ferris wheel" />
+          alt="Jeff and Nicole on the ferris wheel"
+        />
         <div className="max-w-4xl mx-auto flex flex-wrap flex-row justify-around">
           {row1.concat(row2).map(({ href, label, description }) => (
             <div
