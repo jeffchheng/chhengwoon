@@ -29,7 +29,7 @@ export default function GiftRegistry() {
         <SectionText>
           <strong>When is the RSVP deadline?</strong>
         </SectionText>
-        <SectionText>November 1, 2020.</SectionText>
+        <SectionText>August 15, 2021.</SectionText>
 
         <SectionText>
           <strong>I lost my RSVP...</strong>

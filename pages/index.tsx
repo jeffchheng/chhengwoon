@@ -56,7 +56,7 @@ export default function Home() {
         <PageHeader>
           <PageHeaderText>Jeff &amp; Nicole</PageHeaderText>
           <PageHeaderSeparator />
-          <p>12/12/2020</p>
+          <p>9/25/2021</p>
         </PageHeader>
         <img
           className="mx-auto"

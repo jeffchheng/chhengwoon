@@ -31,7 +31,7 @@ export default function Details() {
 
         <SectionHeader>When</SectionHeader>
         <SectionText>
-          The wedding will take place on Saturday, 12/12/2020. The ceremony,
+          The wedding will take place on Saturday, 9/25/2021. The ceremony,
           cocktail hour, and reception will be held at the Arctic Club. All
           locations will be indoors.{" "}
         </SectionText>

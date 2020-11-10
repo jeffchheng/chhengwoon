@@ -111,27 +111,25 @@ export default function Travel() {
         <SectionText>
           We recommend staying at the Arctic Club itself! Make reservations
           directly through{" "}
-          <OutsideLink href="https://doubletree.hilton.com/en/dt/groups/personalized/S/SEAACDT-CWW-20201210/index.jhtml?WT.mc_id=POG">
+          <OutsideLink href="https://secure3.hilton.com/en_US/dt/reservation/book.htm?inputModule=HOTEL&ctyhocn=SEAACDT&groupCode=CDTCHW&arrival=20210923&departure=20210927&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">
             Hilton&apos;s website
           </OutsideLink>
           .
         </SectionText>
         <ul className="list-disc list-outside px-10">
-          <li>The group code is CWW.</li>
+          <li>The group code is CDTCHW.</li>
           <li>
-            Check in as early as December 10, 2020, and check out as late as
-            December 14, 2020.
+            Check in as early as September 23, 2021, and check out as late as
+            September 27, 2021.
           </li>
           <li>
             For a room in our room block, which is on the same floor as the
             ceremony/reception, you&apos;ll need to pick the $219 king bed
             option.
           </li>
-          <li>The cutoff date to make reservations is November 12, 2020.</li>
+          <li>The cutoff date to make reservations is August 28, 2021.</li>
           <li>
-            If you have any issues reserving rooms, you may call sales
-            coordinator Chipo Muchelemba directly on 206-631-8060 or
-            206-340-0340.
+            If you have any issues reserving rooms, you may call Wedding and Special Event Executive Emily Maxwell-Mitchell directly at 206-631-8041.
           </li>
         </ul>
 
