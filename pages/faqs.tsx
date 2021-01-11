@@ -81,6 +81,7 @@ export default function GiftRegistry() {
           $41 for 4-8 hours and $48 for 8-12 hours. If staying overnight/12-24
           hours, it is $53.
         </SectionText>
+        
         <SectionText>
           There is also an unattended parking structure half a block to the
           east. As of January 2020, it is $10 if staying for up to 10 hours on
