@@ -123,7 +123,7 @@ export default function GiftRegistry() {
           </OutsideLink>
           . We are also saving for our honeymoon and home together.
         </SectionText>
-
+        
         <SectionText>
           <strong>Is Nicole changing her last name?</strong>
         </SectionText>
