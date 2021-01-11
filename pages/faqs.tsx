@@ -118,7 +118,7 @@ export default function GiftRegistry() {
           <strong>Do you have a gift registry?</strong>
         </SectionText>
         <SectionText>
-          The best present you could possible give us it to join in person to celebrate! But if you insist, you can find{" "}
+          The best present you could possibly give us is to join in person to celebrate! But if you insist, you can find{" "}
           <OutsideLink href="https://www.amazon.com/wedding/nicole-woon-jeff-chheng-seattle-september-2021/registry/22OZWY6MOVL68">
             our registry here
           </OutsideLink>
