@@ -118,7 +118,7 @@ export default function GiftRegistry() {
         </SectionText>
         <SectionText>
           The best present you could possible give us it to join in person to celebrate! But if you insist, you can find{" "}
-          <OutsideLink href="https://www.google.com/maps/d/u/0/viewer?mid=1wkitZK6exQQnvNPI1l38dJ3SKzgIcIlJ&ll=47.6259786054647%2C-122.35035185&z=13">
+          <OutsideLink href="https://www.amazon.com/wedding/nicole-woon-jeff-chheng-seattle-september-2021/registry/22OZWY6MOVL68">
             our registry here
           </OutsideLink>
           . We are also saving for our honeymoon and home together.
