@@ -129,7 +129,9 @@ export default function Travel() {
           </li>
           <li>The cutoff date to make reservations is August 28, 2021.</li>
           <li>
-            If you have any issues reserving rooms, you may call Wedding and Special Event Executive Emily Maxwell-Mitchell directly at 206-631-8041.
+            If you have any issues reserving rooms, you may call Wedding and
+            Special Event Executive Emily Maxwell-Mitchell directly at
+            206-631-8041.
           </li>
         </ul>
 

@@ -117,8 +117,11 @@ export default function GiftRegistry() {
           <strong>Do you have a gift registry?</strong>
         </SectionText>
         <SectionText>
-          We do not have any gift registries. The best present you could
-          possibly give us is to join in person to celebrate!
+          The best present you could possible give us it to join in person to celebrate! But if you insist, you can find{" "}
+          <OutsideLink href="https://www.google.com/maps/d/u/0/viewer?mid=1wkitZK6exQQnvNPI1l38dJ3SKzgIcIlJ&ll=47.6259786054647%2C-122.35035185&z=13">
+            our registry here
+          </OutsideLink>
+          . We are also saving for our honeymoon and home together.
         </SectionText>
 
         <SectionText>

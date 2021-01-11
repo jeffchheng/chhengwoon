@@ -32,8 +32,9 @@ export default function OurStory() {
           On our second anniversary (December 21, 2019), we made our way to
           Pacific Park at Santa Monica Pier in Nicole&apos;s hometown. After
           breezing over the boardwalk on the West Coaster and swirling around on
-          Inkie&apos;s Scrambler, we boarded the Pacific Wheel. Jeff proposed to Nicole as their private
-          cabin reached the top during a stunning sunset, and she said yes!
+          Inkie&apos;s Scrambler, we boarded the Pacific Wheel. Jeff proposed to
+          Nicole as their private cabin reached the top during a stunning
+          sunset, and she said yes!
         </SectionText>
         <SectionText>
           We enjoy trying new restaurants, watching TV, playing games, and being
