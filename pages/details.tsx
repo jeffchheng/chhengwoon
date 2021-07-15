@@ -25,42 +25,37 @@ export default function Details() {
         </PageHeader>
 
         <PhotoWithCaption
-          src="/arctic-club-exterior.jpg"
-          alt="The Arctic Club's exterior (note the terra cotta walrus sculptures lining the building!)."
+          src="/fairmont-olympic-exterior.jpg"
+          alt="The Fairmont Olympic Hotel."
         />
 
         <SectionHeader>When</SectionHeader>
         <SectionText>
           The wedding will take place on Saturday, 9/25/2021. The ceremony,
-          cocktail hour, and reception will be held at the Arctic Club. All
-          locations will be indoors.{" "}
+          cocktail hour, and reception will be held at the Fairmont Olympic Hotel. All
+          locations will be indoors.
         </SectionText>
 
         <SectionText>
-          The ceremony starts at 3 pm in the Northern Lights Dome Room on the
-          2nd floor. This will be followed by a cocktail hour in the Polar Bar
-          lounge area on the 1st floor. The dinner reception starts at 5 pm back
-          in the Northern Lights Dome Room on the 2nd floor. There are both
-          stairs and elevators available to travel between floors.
+          The ceremony starts at 5 pm in the Spanish Ballroom. This will be followed by a cocktail hour in the Spanish Foyer. The dinner reception starts at 7 pm back
+          in the Spanish Ballroom.
         </SectionText>
 
         <SectionHeader>Where</SectionHeader>
 
         <address className="py-2 select-all">
-          700 3rd Ave
+          411 University St
           <br />
-          Seattle, WA 98104
+          Seattle, WA 98101
         </address>
 
         <SectionText>
-          The building is at the northeast corner of 3rd Avenue and Cherry
-          Street. The main entrance connecting to the lobby is on Cherry Street.
-          If you require an accessible entrance, please enter on 3rd Avenue.
+          The main entrance is on University Street, between 4th and 5th Ave.
         </SectionText>
 
         <div className="py-4">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10760.60788227898!2d-122.332065!3d47.6037346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd400f37346754679!2sThe%20Arctic%20Club%20Seattle%20-%20a%20DoubleTree%20by%20Hilton%20Hotel!5e0!3m2!1sen!2sus!4v1580025213845!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1130.9766719197355!2d-122.33446319280567!3d47.60803113900165!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdd28f7dca2a5499a!2sFairmont%20Olympic%20Hotel%20-%20Seattle!5e0!3m2!1sen!2sus!4v1626320294315!5m2!1sen!2sus"
             frameBorder="0"
             height="360"
             style={{

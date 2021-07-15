@@ -29,28 +29,13 @@ export default function GiftRegistry() {
         <SectionText>
           <strong>When is the RSVP deadline?</strong>
         </SectionText>
-        <SectionText>August 15, 2021.</SectionText>
-
-        <SectionText>
-          <strong>I lost my RSVP...</strong>
-        </SectionText>
-        <SectionText>
-          Oops, it happens! Send us a message at chhengwoon@gmail.com or give us
-          a call/text.
-        </SectionText>
+        <SectionText>September 1, 2021.</SectionText>
 
         <SectionText>
           <strong>What about COVID-19?</strong>
         </SectionText>
         <SectionText>
-          Washington State has a four-phase reopening plan that incrementally
-          allows for more in-person activities as long as COVID-19 key
-          indicators remain within certain parameters. Seattle is located in
-          King County - the county&apos;s latest status can be found{" "}
-          <OutsideLink href="https://www.kingcounty.gov/depts/health/covid-19/safe-start.aspx">
-            here
-          </OutsideLink>
-          . If for some reason we need to postpone or cancel, we will add an
+          Washington State has fully reopened as of June 30, 2021. We are requiring all guests to have gotten a COVID-19 vaccine. If for some reason we need to postpone or cancel, we will add an
           announcement to this site and contact you based on the email provided
           in the RSVP.
         </SectionText>
@@ -69,7 +54,7 @@ export default function GiftRegistry() {
           <strong>What time should we arrive?</strong>
         </SectionText>
         <SectionText>
-          Doors open at 2:15 pm and the ceremony begins at 3 pm, so you have
+          Doors open at 4:30 pm, and the ceremony begins at 5 pm so that you have
           plenty of time to be seated and settle in.
         </SectionText>
 
@@ -77,27 +62,14 @@ export default function GiftRegistry() {
           <strong>Where do we park?</strong>
         </SectionText>
         <SectionText>
-          There is valet parking at the hotel. If staying for the evening, it is
-          $41 for 4-8 hours and $48 for 8-12 hours. If staying overnight/12-24
-          hours, it is $53.
-        </SectionText>
-        
-        <SectionText>
-          There is also an unattended parking structure half a block to the
-          east. As of January 2020, it is $10 if staying for up to 10 hours on
-          the weekend, and $20 if staying overnight (anytime after 2 pm until
-          8:30 am the next day).
+          There is valet parking at the hotel. You also have the option to self-park in the garage at 5th and Seneca, one block away.
         </SectionText>
 
         <SectionText>
           <strong>Is the venue accessible?</strong>
         </SectionText>
         <SectionText>
-          Yes! The hotel&apos;s accessible public entrance is on 3rd Avenue, and
-          there are elevators to travel between floors. Note that the ceremony
-          and reception will take place on the 2nd floor in the Northern Lights
-          Dome Room, and the cocktail hour will take place on the 1st floor in
-          the Polar Bar&apos;s lounge area.
+          Yes! The hotel has elevators to travel between floors.
         </SectionText>
 
         <SectionHeader>Miscellaneous</SectionHeader>
@@ -124,11 +96,18 @@ export default function GiftRegistry() {
           </OutsideLink>
           . We are also saving for our honeymoon and home together.
         </SectionText>
-        
+
         <SectionText>
           <strong>Is Nicole changing her last name?</strong>
         </SectionText>
         <SectionText>No.</SectionText>
+
+        <SectionText>
+          <strong>Have any questions?</strong>
+        </SectionText>
+        <SectionText>
+          Shoot us an email at chhengwoon@gmail.com.
+        </SectionText>
       </PageWrapper>
     </div>
   );

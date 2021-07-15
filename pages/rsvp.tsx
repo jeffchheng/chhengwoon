@@ -25,12 +25,12 @@ export default function RSVP() {
         </PageHeader>
 
         <PhotoWithCaption
-          src="/arctic_club_polar_bar.jpg"
-          alt="The iconic Polar Bar at the Arctic Club."
+          src="/fairmont-olympic-bar.webp"
+          alt="The newly renovated Olympic Bar."
         />
 
         <SectionText>
-          Please RSVP by August 15, 2021, using{" "}
+          Please RSVP by September 1, 2021, using{" "}
           <OutsideLink href="https://docs.google.com/forms/d/e/1FAIpQLSczb8Bz0NAQGvNWjzdewFbkfl7H6JTg0cakaWY7jn1Gfw9oVQ/viewform">
             this form.
           </OutsideLink>

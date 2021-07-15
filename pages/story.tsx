@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Nav from "../components/Nav";
+import OutsideLink from "../components/OutsideLink";
 import PageHeader from "../components/PageHeader";
 import PageHeaderSeparator from "../components/PageHeaderSeparator";
 import PageHeaderText from "../components/PageHeaderText";
@@ -44,7 +45,8 @@ export default function OurStory() {
           Japan, Greece, Czech Republic, Switzerland), and are excited for our
           biggest adventure yet!
         </SectionText>
-        <div className="grid grid-cols-2 md:grid-cols-3 grid-flow-row gap-2">
+        <SectionText>Read more about our story <OutsideLink href="https://www.nytimes.com/2021/01/15/fashion/weddings/weddings-courtship.html">in the New York Times</OutsideLink>!</SectionText>
+        <div className="grid grid-cols-2 md:grid-cols-3 grid-flow-row gap-2 py-3">
           {(() => {
             const images = [];
 
