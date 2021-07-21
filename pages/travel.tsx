@@ -95,13 +95,13 @@ export default function Travel() {
           . You can either walk along the corridor (~2-3 blocks in length) or
           look for the free courtesy shuttle to transport you from the airport
           parking garage to the Link station. Link trains run every 6, 10 or 15
-          minutes depending on the time of day. Service is available from 5 am
-          to 1 am. Monday through Saturday, and from 6 am to midnight on Sunday
+          minutes depending on the time of day. Service is generally available from 5 am
+          to 1 am Monday through Saturday, and from 6 am to midnight on Sunday
           and holidays. There are ticket vending machines located on the floor
           below the platform. Adult fares range from $2.25 to $3.25 depending on
-          how far you travel. The closest stop to the Arctic Club is the{" "}
-          <OutsideLink href="https://www.soundtransit.org/ride-with-us/stations/link-light-rail-stations/pioneer-square-station">
-            Pioneer Square Station
+          how far you travel. The closest stop to the Fairmont Olympic is the{" "}
+          <OutsideLink href="https://www.soundtransit.org/ride-with-us/stops-stations/university-street-station">
+            University Street Station
           </OutsideLink>
           .
         </SectionText>
@@ -109,35 +109,24 @@ export default function Travel() {
         <SectionHeader>Staying in Seattle</SectionHeader>
 
         <SectionText>
-          We recommend staying at the Arctic Club itself! Make reservations
-          directly through{" "}
-          <OutsideLink href="https://secure3.hilton.com/en_US/dt/reservation/book.htm?inputModule=HOTEL&ctyhocn=SEAACDT&groupCode=CDTCHW&arrival=20210923&departure=20210927&cid=OM,WW,HILTONLINK,EN,DirectLink&fromId=HILTONLINKDIRECT">
-            Hilton&apos;s website
-          </OutsideLink>
-          .
+          We recommend staying at the Fairmont Olympic itself! 
         </SectionText>
         <ul className="list-disc list-outside px-10">
-          <li>The group code is CDTCHW.</li>
-          <li>
-            Check in as early as September 23, 2021, and check out as late as
-            September 27, 2021.
+        <li>
+        You can make reservations within our room block by calling 888-363-5022 and referencing the Woon-Chheng Wedding. A direct booking link to make reservations online is coming soon. 
           </li>
           <li>
-            For a room in our room block, which is on the same floor as the
-            ceremony/reception, you&apos;ll need to pick the $219 king bed
-            option.
+            Check in as early as Wed, September 22, 2021, and check out as late as
+            Wed, September 29, 2021.
           </li>
-          <li>The cutoff date to make reservations is August 28, 2021.</li>
           <li>
-            If you have any issues reserving rooms, you may call Wedding and
-            Special Event Executive Emily Maxwell-Mitchell directly at
-            206-631-8041.
+            For a 2-person room, rates start at $275 per night for a deluxe king. For a 4-person room, rates start at $365 per night for a deluxe two double. 
           </li>
         </ul>
 
         <div className="py-4">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10760.60788227898!2d-122.332065!3d47.6037346!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd400f37346754679!2sThe%20Arctic%20Club%20Seattle%20-%20a%20DoubleTree%20by%20Hilton%20Hotel!5e0!3m2!1sen!2sus!4v1580025213845!5m2!1sen!2sus"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.9319648209193!2d-122.3360642480622!3d47.60801257908253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ab3fa957b7f%3A0xdd28f7dca2a5499a!2sFairmont%20Olympic%20Hotel%20-%20Seattle!5e0!3m2!1sen!2sus!4v1626836884629!5m2!1sen!2sus"
             frameBorder="0"
             height="360"
             style={{
@@ -157,20 +146,34 @@ export default function Travel() {
             hotels
           </OutsideLink>{" "}
           downtown, from luxury suites to budget options, within walking
-          distance of the Arctic Club. We recommend staying at locations north
-          of Cherry Street. Some suggestions:
+          distance of the Fairmont Olympic. Some suggestions:
         </SectionText>
 
+        <SectionText>Within a block of the venue:</SectionText>
+
         <ul className="list-disc list-outside px-10">
+        <li>
+            <OutsideLink href="https://www.marriott.com/hotels/travel/seawh-w-seattle/">
+              W Seattle
+            </OutsideLink>
+          </li>
+          <li>
+            <OutsideLink href="https://www.monaco-seattle.com/">
+              Kimpton Hotel Monaco
+            </OutsideLink>
+          </li>
+          <li>
+            <OutsideLink href="https://www.hotelvintage-seattle.com/">
+              Kimpton Hotel Vintage
+            </OutsideLink>
+          </li>
+          </ul>
+
+          <SectionText>Near Pike Place Market (0.5 miles away from venue):</SectionText>
+          <ul className="list-disc list-outside px-10">
           <li>
             <OutsideLink href="http://www.innatthemarket.com/">
               Inn at the Market
-            </OutsideLink>{" "}
-            (in the heart of Pike Place Market)
-          </li>
-          <li>
-            <OutsideLink href="https://www.palladianhotel.com/">
-              Kimpton Palladian
             </OutsideLink>
           </li>
           <li>
@@ -179,9 +182,18 @@ export default function Travel() {
             </OutsideLink>
           </li>
           <li>
-            <OutsideLink href="https://www.fairmont.com/seattle/">
-              Fairmont Olympic
+            <OutsideLink href="https://www.palladianhotel.com/">
+              Kimpton Palladian
             </OutsideLink>
+          </li>
+        </ul>
+
+        <SectionText>Near Seattle Center and the Space Needle (1.2 miles away from venue):</SectionText>
+          <ul className="list-disc list-outside px-10">
+          <li>
+            <OutsideLink href="https://www.hyatt.com/en-US/group-booking/SEAXD/G-CWW9">
+              Hyatt House Seattle 
+            </OutsideLink> (room block available until Tues 8/10/21)
           </li>
         </ul>
       </PageWrapper>
