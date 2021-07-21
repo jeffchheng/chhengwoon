@@ -45,7 +45,13 @@ export default function OurStory() {
           Japan, Greece, Czech Republic, Switzerland), and are excited for our
           biggest adventure yet!
         </SectionText>
-        <SectionText>Read more about our story <OutsideLink href="https://www.nytimes.com/2021/01/15/fashion/weddings/weddings-courtship.html">in the New York Times</OutsideLink>!</SectionText>
+        <SectionText>
+          Read more about our story{" "}
+          <OutsideLink href="https://www.nytimes.com/2021/01/15/fashion/weddings/weddings-courtship.html">
+            in the New York Times
+          </OutsideLink>
+          !
+        </SectionText>
         <div className="grid grid-cols-2 md:grid-cols-3 grid-flow-row gap-2 py-3">
           {(() => {
             const images = [];

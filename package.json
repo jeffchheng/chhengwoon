@@ -4,32 +4,33 @@
   "private": true,
   "scripts": {
     "prettify": "prettier --config ./.prettierrc --write \"{components,pages}/**/*.{ts,tsx}\"",
-    "lint": "prettier --config ./.prettierrc --write \"{components,pages}/**/*.{ts,tsx}\" && eslint --ext .ts,.tsx pages components",
+    "lint": "prettier --config ./.prettierrc --write \"{components,pages}/**/*.{ts,tsx}\" && next lint",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
-    "autoprefixer": "^9.8.6",
-    "next": "^9.5.5",
-    "postcss-import": "^12.0.1",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "tailwindcss": "^1.9.6"
+    "next": "^11.0.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "@testing-library/react": "^9.5.0",
-    "@types/node": "^13.13.39",
-    "@types/react": "^16.14.2",
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0",
-    "babel-jest": "^26.6.3",
-    "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^2.5.1",
+    "@testing-library/react": "^12.0.0",
+    "@types/node": "^16.0.0",
+    "@types/react": "^17.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "autoprefixer": "^10.3.1",
+    "babel-jest": "^27.0.0",
+    "eslint": "^7.0.0",
+    "eslint-config-next": "^11.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
     "jest": "^26.6.3",
-    "prettier": "^2.2.1",
-    "typescript": "^3.9.7"
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.0.0"
   }
 }

@@ -32,13 +32,14 @@ export default function Details() {
         <SectionHeader>When</SectionHeader>
         <SectionText>
           The wedding will take place on Saturday, 9/25/2021. The ceremony,
-          cocktail hour, and reception will be held at the Fairmont Olympic Hotel. All
-          locations will be indoors.
+          cocktail hour, and reception will be held at the Fairmont Olympic
+          Hotel. All locations will be indoors.
         </SectionText>
 
         <SectionText>
-          The ceremony starts at 5 pm in the Spanish Ballroom. This will be followed by a cocktail hour in the Spanish Foyer. The dinner reception starts at 7 pm back
-          in the Spanish Ballroom.
+          The ceremony starts at 5 pm in the Spanish Ballroom. This will be
+          followed by a cocktail hour in the Spanish Foyer. The dinner reception
+          starts at 7 pm back in the Spanish Ballroom.
         </SectionText>
 
         <SectionHeader>Where</SectionHeader>

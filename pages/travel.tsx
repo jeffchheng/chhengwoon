@@ -31,7 +31,7 @@ export default function Travel() {
   return (
     <div>
       <Head>
-        <title>Travel Information - Jeff &amp; Nicole&apos;s Wedding</title>
+        <title>Travel Information - Jeff & Nicole's Wedding</title>
       </Head>
 
       <Nav />
@@ -95,11 +95,12 @@ export default function Travel() {
           . You can either walk along the corridor (~2-3 blocks in length) or
           look for the free courtesy shuttle to transport you from the airport
           parking garage to the Link station. Link trains run every 6, 10 or 15
-          minutes depending on the time of day. Service is generally available from 5 am
-          to 1 am Monday through Saturday, and from 6 am to midnight on Sunday
-          and holidays. There are ticket vending machines located on the floor
-          below the platform. Adult fares range from $2.25 to $3.25 depending on
-          how far you travel. The closest stop to the Fairmont Olympic is the{" "}
+          minutes depending on the time of day. Service is generally available
+          from 5 am to 1 am Monday through Saturday, and from 6 am to midnight
+          on Sunday and holidays. There are ticket vending machines located on
+          the floor below the platform. Adult fares range from $2.25 to $3.25
+          depending on how far you travel. The closest stop to the Fairmont
+          Olympic is the{" "}
           <OutsideLink href="https://www.soundtransit.org/ride-with-us/stops-stations/university-street-station">
             University Street Station
           </OutsideLink>
@@ -109,18 +110,22 @@ export default function Travel() {
         <SectionHeader>Staying in Seattle</SectionHeader>
 
         <SectionText>
-          We recommend staying at the Fairmont Olympic itself! 
+          We recommend staying at the Fairmont Olympic itself!
         </SectionText>
         <ul className="list-disc list-outside px-10">
-        <li>
-        You can make reservations within our room block by calling 888-363-5022 and referencing the Woon-Chheng Wedding. A direct booking link to make reservations online is coming soon. 
+          <li>
+            You can make reservations within our room block by calling
+            888-363-5022 and referencing the Woon-Chheng Wedding. A direct
+            booking link to make reservations online is coming soon.
           </li>
           <li>
-            Check in as early as Wed, September 22, 2021, and check out as late as
-            Wed, September 29, 2021.
+            Check in as early as Wed, September 22, 2021, and check out as late
+            as Wed, September 29, 2021.
           </li>
           <li>
-            For a 2-person room, rates start at $275 per night for a deluxe king. For a 4-person room, rates start at $365 per night for a deluxe two double. 
+            For a 2-person room, rates start at $275 per night for a deluxe
+            king. For a 4-person room, rates start at $365 per night for a
+            deluxe two double.
           </li>
         </ul>
 
@@ -152,7 +157,7 @@ export default function Travel() {
         <SectionText>Within a block of the venue:</SectionText>
 
         <ul className="list-disc list-outside px-10">
-        <li>
+          <li>
             <OutsideLink href="https://www.marriott.com/hotels/travel/seawh-w-seattle/">
               W Seattle
             </OutsideLink>
@@ -167,10 +172,12 @@ export default function Travel() {
               Kimpton Hotel Vintage
             </OutsideLink>
           </li>
-          </ul>
+        </ul>
 
-          <SectionText>Near Pike Place Market (0.5 miles away from venue):</SectionText>
-          <ul className="list-disc list-outside px-10">
+        <SectionText>
+          Near Pike Place Market (0.5 miles away from venue):
+        </SectionText>
+        <ul className="list-disc list-outside px-10">
           <li>
             <OutsideLink href="http://www.innatthemarket.com/">
               Inn at the Market
@@ -188,12 +195,15 @@ export default function Travel() {
           </li>
         </ul>
 
-        <SectionText>Near Seattle Center and the Space Needle (1.2 miles away from venue):</SectionText>
-          <ul className="list-disc list-outside px-10">
+        <SectionText>
+          Near Seattle Center and the Space Needle (1.2 miles away from venue):
+        </SectionText>
+        <ul className="list-disc list-outside px-10">
           <li>
             <OutsideLink href="https://www.hyatt.com/en-US/group-booking/SEAXD/G-CWW9">
-              Hyatt House Seattle 
-            </OutsideLink> (room block available until Tues 8/10/21)
+              Hyatt House Seattle
+            </OutsideLink>{" "}
+            (room block available until Tues 8/10/21)
           </li>
         </ul>
       </PageWrapper>

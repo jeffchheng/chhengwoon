@@ -1,4 +1,4 @@
-import "../css/tailwind.css";
+import "../css/globals.css";
 import Head from "next/head";
 
 type Props = {
