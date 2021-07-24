@@ -127,7 +127,7 @@ export default function Travel() {
           </li>
           <li>
             For a 2-person room, rates start at $275 per night for a deluxe
-            king. For a 4-person room, rates start at $365 per night for a
+            king. For a 4-person room, rates start at $305 per night for a
             deluxe two double.
           </li>
         </ul>
@@ -203,10 +203,14 @@ export default function Travel() {
         </SectionText>
         <ul className="list-disc list-outside px-10">
           <li>
-            <OutsideLink href="https://www.hyatt.com/en-US/group-booking/SEAXD/G-CWW9">
+            <OutsideLink href="https://www.hyatt.com/en-US/hotel/washington/hyatt-house-seattle-downtown/seaxd">
               Hyatt House Seattle
+            </OutsideLink>
+            . You can make a reservation through{" "}
+            <OutsideLink href="https://www.hyatt.com/en-US/group-booking/SEAXD/G-CWW9">
+              this room block
             </OutsideLink>{" "}
-            (room block available until Tues 8/10/21)
+            until 8/10/21.
           </li>
         </ul>
       </PageWrapper>
