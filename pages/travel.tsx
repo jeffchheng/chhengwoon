@@ -114,9 +114,12 @@ export default function Travel() {
         </SectionText>
         <ul className="list-disc list-outside px-10">
           <li>
-            You can make reservations within our room block by calling
-            888-363-5022 and referencing the Woon-Chheng Wedding. A direct
-            booking link to make reservations online is coming soon.
+            You can make reservations within our room block{" "}
+            <OutsideLink href="https://book.passkey.com/go/WoonChhengWedding">
+              using this link
+            </OutsideLink>
+            , or by calling 888-363-5022 and referencing the Woon-Chheng
+            Wedding.
           </li>
           <li>
             Check in as early as Wed, September 22, 2021, and check out as late
