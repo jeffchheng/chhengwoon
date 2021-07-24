@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 import Nav from "../components/Nav";
 import PageHeader from "../components/PageHeader";
@@ -58,11 +59,14 @@ export default function Home() {
           <PageHeaderSeparator />
           <p>9/25/2021</p>
         </PageHeader>
-        <img
-          className="mx-auto"
-          src="/jeff-and-nicole-engaged.jpg"
-          alt="Jeff and Nicole on the ferris wheel"
-        />
+        <div className="grid justify-items-center">
+          <Image
+            src="/jeff-and-nicole-engaged.jpg"
+            alt="Jeff and Nicole on the ferris wheel"
+            width="600"
+            height="450"
+          />
+        </div>
         <div className="max-w-4xl mx-auto flex flex-wrap flex-row justify-around">
           {row1.concat(row2).map(({ href, label, description }) => (
             <div
