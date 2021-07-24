@@ -27,6 +27,8 @@ export default function RSVP() {
         <PhotoWithCaption
           src="/fairmont-olympic-bar.webp"
           alt="The newly renovated Olympic Bar."
+          width="920"
+          height="613"
         />
 
         <SectionText>

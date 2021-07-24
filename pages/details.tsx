@@ -27,6 +27,8 @@ export default function Details() {
         <PhotoWithCaption
           src="/fairmont-olympic-exterior.jpg"
           alt="The Fairmont Olympic Hotel."
+          width="1200"
+          height="800"
         />
 
         <SectionHeader>When</SectionHeader>
