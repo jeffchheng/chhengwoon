@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 import Nav from "../components/Nav";
 import PageHeader from "../components/PageHeader";
@@ -26,10 +27,12 @@ export default function WeddingParty() {
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 p-2">
             <div className="rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full object-cover object-top"
                 src="/party/nicole-nancy.jpg"
                 alt="Nicole and Nancy"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Nancy Chin</div>
@@ -45,10 +48,12 @@ export default function WeddingParty() {
           </div>
           <div className="w-full md:w-1/2 w-1/2 p-2">
             <div className="mx-auto rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full"
                 src="/party/nicole-michelle.jpg"
                 alt="Nicole and Michelle"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Michelle Chan</div>
@@ -67,10 +72,12 @@ export default function WeddingParty() {
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 p-2">
             <div className="rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full object-cover object-top"
                 src="/party/nicole-jamie.jpg"
                 alt="Nicole and Jamie"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Jamie Lee</div>
@@ -87,10 +94,12 @@ export default function WeddingParty() {
           </div>
           <div className="w-full md:w-1/2 p-2">
             <div className="mx-auto rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full"
                 src="/party/nicole-angelica.jpg"
                 alt="Nicole and Angelica"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Angelica Tran</div>
@@ -111,10 +120,12 @@ export default function WeddingParty() {
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 p-2">
             <div className="rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full object-cover object-top"
                 src="/party/jeff-alex.jpg"
                 alt="Jeff and Alex"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Alex Chheng</div>
@@ -130,10 +141,12 @@ export default function WeddingParty() {
           </div>
           <div className="w-full md:w-1/2 w-1/2 p-2">
             <div className="mx-auto rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full"
                 src="/party/jeff-chris.jpg"
                 alt="Jeff and Chris"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Chris Ouch</div>
@@ -152,10 +165,12 @@ export default function WeddingParty() {
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 p-2">
             <div className="rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full object-cover object-top"
                 src="/party/jeff-alan.jpg"
                 alt="Jeff and Alan"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Alan Chang</div>
@@ -172,10 +187,12 @@ export default function WeddingParty() {
           </div>
           <div className="w-full md:w-1/2 p-2">
             <div className="mx-auto rounded overflow-hidden shadow-lg h-full">
-              <img
+              <Image
                 className="w-full"
                 src="/party/jeff-louis.jpg"
                 alt="Jeff and Louis"
+                width="1000"
+                height="1000"
               />
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Louis Hughes</div>

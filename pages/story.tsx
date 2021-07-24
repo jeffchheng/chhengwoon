@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Nav from "../components/Nav";
 import OutsideLink from "../components/OutsideLink";
 import PageHeader from "../components/PageHeader";
@@ -57,7 +58,7 @@ export default function OurStory() {
             const images = [];
 
             for (let i = 0; i <= 26; i++) {
-              images.push(<img src={`/story/${i}.jpg`} />);
+              images.push(<Image src={`/story/${i}.jpg`} width="300" height="300" />);
             }
 
             return images;
