@@ -59,7 +59,12 @@ export default function OurStory() {
 
             for (let i = 0; i <= 26; i++) {
               images.push(
-                <Image src={`/story/${i}.jpg`} width="300" height="300" alt="" />
+                <Image
+                  src={`/story/${i}.jpg`}
+                  width="300"
+                  height="300"
+                  alt=""
+                />
               );
             }
 
