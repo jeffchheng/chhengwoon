@@ -58,8 +58,7 @@ export default function Travel() {
           <OutsideLink href="https://www.google.com/flights?hl=en#flt=LAX.SEA.2020-12-11*SEA.LAX.2020-12-13;c:USD;e:1;sd:1;t:f">
             Google Flights
           </OutsideLink>{" "}
-          to find and compare airfare. We generally fly Alaska
-          Airlines.
+          to find and compare airfare. We generally fly Alaska Airlines.
         </SectionText>
 
         <SectionHeader>Traveling to Downtown Seattle</SectionHeader>

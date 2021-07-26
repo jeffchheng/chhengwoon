@@ -89,15 +89,20 @@ export default function GiftRegistry() {
         </SectionText>
 
         <SectionText>
-          <strong>Do you have a gift registry?</strong>
+          <strong>Where are you registered?</strong>
         </SectionText>
         <SectionText>
-          The best present you could possibly give us is to join in person to
-          celebrate! But if you insist, you can find{" "}
+          We are saving for our honeymoon and home together, but we do have gift
+          registries at{" "}
           <OutsideLink href="https://www.amazon.com/wedding/nicole-woon-jeff-chheng-seattle-september-2021/registry/22OZWY6MOVL68">
-            our registry here
+            Amazon
+          </OutsideLink>{" "}
+          and{" "}
+          <OutsideLink href="https://www.macys.com/wgl/registry/guest/NICOLE-WOON-JEFF-CHHENG/7282938">
+            Macy's
           </OutsideLink>
-          . We are also saving for our honeymoon and home together.
+          . Note that for Macy's site, you will need to disable your ad blocker.
+          Buying from Amazon will also improve Jeff's shareholder value.
         </SectionText>
 
         <SectionText>
