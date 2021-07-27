@@ -102,7 +102,6 @@ export default function GiftRegistry() {
             Macy's
           </OutsideLink>
           . Note that for Macy's site, you will need to disable your ad blocker.
-          Buying from Amazon will also improve Jeff's shareholder value.
         </SectionText>
 
         <SectionText>
