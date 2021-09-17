@@ -39,9 +39,9 @@ export default function Details() {
         </SectionText>
 
         <SectionText>
-          The ceremony starts at 5 pm in the Spanish Ballroom. This will be
+          The ceremony starts at 5 pm in the Garden Room. This will be
           followed by a cocktail hour in the Spanish Foyer. The dinner reception
-          starts at 7 pm back in the Spanish Ballroom.
+          starts at 7 pm back in the Garden Room.
         </SectionText>
 
         <SectionHeader>Where</SectionHeader>
